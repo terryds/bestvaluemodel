@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "date": "2026-09-25",
+    "added": [
+      {
+        "name": "DeepSeek V4.1 Flash (Non-Reasoning)",
+        "creator": "DeepSeek",
+        "index": 24.7,
+        "blended": 0.525
+      },
+      {
+        "name": "GLM-5.3 (low)",
+        "creator": "Z AI",
+        "index": 34.3,
+        "blended": 2.15
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Apodex 1.1",
+        "creator": "Apodex",
+        "fields": [
+          {
+            "field": "index",
+            "from": 30.4,
+            "to": 26.4
+          }
+        ]
+      },
+      {
+        "name": "Gemma 4 26B A4B (Reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.16,
+            "to": 0.168
+          },
+          {
+            "field": "output",
+            "from": 0.34,
+            "to": 0.37
+          }
+        ]
+      },
+      {
+        "name": "Muse Glimmer (high)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.637,
+            "to": 0.581
+          },
+          {
+            "field": "input",
+            "from": 0.35,
+            "to": 0.325
+          },
+          {
+            "field": "output",
+            "from": 1.5,
+            "to": 1.35
+          }
+        ]
+      }
+    ]
+  }
+]

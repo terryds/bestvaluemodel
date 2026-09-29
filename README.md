@@ -53,7 +53,7 @@ The page fetches JSON, so open it over HTTP rather than as a `file://` URL.
 
 ## Notes
 
-- The frontier is computed client-side for whichever metric is selected (Intelligence, Coding, Math), over the full model set, so filtering by maker shows where that maker's models sit against everyone.
+- The frontier is computed client-side on the Intelligence Index, for whichever cost basis is selected, over the full model set, so filtering by maker shows where that maker's models sit against everyone.
 - Blended price is AA's 3:1 input:output blend. Cached-input, batch and fast-mode pricing are ignored.
 - Cost per task is AA's weighted average cost to complete one Intelligence Index task, fetched from `/api/v2/language/models/free` and merged in by model id. It accounts for how many tokens a model actually uses, but AA has measured it for fewer models, so the "Cost per task" view shows a smaller field.
 - Data attribution: Artificial Analysis, https://artificialanalysis.ai/. Required by their API terms.

@@ -545,12 +545,12 @@
       const tr = h("tr");
       tr.appendChild(h("td", null, range));
       const pick = h("td", "pick"); pick.title = d.name;
-      if (d.url) { const a = h("a", null, d.short); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; pick.appendChild(a); } else pick.textContent = d.short;
+      if (d.url) { const a = h("a", null, d.label); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; pick.appendChild(a); } else pick.textContent = d.label;
       tr.appendChild(pick);
       tr.appendChild(h("td", null, num(d.v, 1)));
       tr.appendChild(h("td", null, money(d.x)));
       const rtd = h("td", "ru");
-      if (ru) { rtd.append(h("b", null, ru.short), document.createTextNode(` · ${num(ru.v, 1)} at ${money(ru.x)}`)); rtd.title = ru.name; } else { rtd.textContent = "—"; rtd.classList.add("na"); }
+      if (ru) { rtd.append(h("b", null, ru.label), document.createTextNode(` · ${num(ru.v, 1)} at ${money(ru.x)}`)); rtd.title = ru.name; } else { rtd.textContent = "—"; rtd.classList.add("na"); }
       tr.appendChild(rtd);
       tb.appendChild(tr);
     });
@@ -595,6 +595,8 @@
     $("scatter").setAttribute("aria-label", `Scatter plot of ${METRIC} versus ${cost.title}`);
     $("budgetHead").textContent = "Budget " + cost.unit;
     $("budgetPrice").textContent = cost.col;
+    $("budgetCap").textContent = "The frontier as a lookup table. Find the row your budget falls in; the pick is the highest-scoring model you can get at that price, and the runner-up is the next best that also fits."
+      + (state.collapse ? " Scores are for each model's best reasoning setting." : "");
     $("barIndexTitle").textContent = `Raw capability: ${METRIC}`;
     drawScatter(rows, vis, frontier);
     budgetTable(vis);

@@ -181,7 +181,7 @@
 <header>
   <div>
     <h1>Which LLM is worth it</h1>
-    <p class="sub">Every model on the <b>Artificial Analysis Intelligence Index</b> plotted against its blended API price, or against what it actually cost per task. Models on the <b>value frontier</b> are the ones where nothing cheaper is also smarter; everything else is beaten on both counts by a point on the line. Each reasoning setting of a model is plotted as its own point, and low scorers are hidden by default; use the filters to narrow or widen the field.</p>
+    <p class="sub">Every model on the <b>Artificial Analysis Intelligence Index</b> plotted against its blended API price, or against what it actually cost per task. Models on the <b>value frontier</b> are the ones where nothing cheaper is also smarter; everything else is beaten on both counts by a point on the line. Low scorers are hidden by default. The price view shows one point per model, since every reasoning setting of a model has the same price per 1M tokens; the cost per task view shows each reasoning setting separately, since they cost very different amounts.</p>
     <p class="meta" id="meta">Loading data…</p>
   </div>
   <div class="hdr-actions">
@@ -195,7 +195,7 @@
     <button type="button" data-cost="task" aria-pressed="false" title="What the model actually cost per Intelligence Index task, counting every token it used">Cost per task</button>
   </div>
   <label>Min score <input type="range" id="minIdx" min="0" max="50" step="5" value="30" aria-label="Minimum index"> <span id="minIdxVal">30</span></label>
-  <label title="Keep only the best-scoring effort or reasoning variant of each model"><input type="checkbox" id="collapse"> One row per model</label>
+  <label title="Keep only the best-scoring effort or reasoning variant of each model"><input type="checkbox" id="collapse" checked> One row per model</label>
   <label>Maker <select id="makerSel"><option value="">All</option></select></label>
   <label><input type="search" id="search" placeholder="Search model…" aria-label="Search model"></label>
   <label><input type="checkbox" id="frontierOnly"> Frontier only</label>
@@ -268,7 +268,7 @@
       <li><b>Cost per task</b> is not calculated here. It is Artificial Analysis's own figure, taken as published from their data API: the weighted average cost in USD to complete one Intelligence Index task. AA runs the full Index, takes the token counts reported by the provider (input, cached input, reasoning and answer tokens), prices them at the model's per-token rates, and weights each benchmark the same way the Index does. Two models with the same price per 1M tokens can differ several times over, because one spends far more tokens to reach its answer.</li>
       <li><b>Reasoning settings are separate rows.</b> AA benchmarks each effort level (low, medium, high, xhigh, max, non-reasoning) as its own model, with its own score and its own cost per task. Every figure on this page belongs to one specific setting, named in the tooltip and the tables. Higher effort usually scores higher and costs much more per task, while the price per 1M tokens stays the same.</li>
       <li><b>Limits of cost per task.</b> AA has measured it for fewer models, so that view shows a smaller field. It reflects AA's benchmark workload, not yours.</li>
-      <li><b>"One row per model"</b> keeps the highest-scoring effort or reasoning variant of each model name (ties go to the cheaper one). It is off by default, so every variant AA benchmarks separately (low, medium, high, xhigh, max effort) is shown. Ticking it hides detail that matters in the cost per task view: the top-scoring variant is usually the highest effort and the most expensive, and a lower effort setting of the same model is often better value.</li>
+      <li><b>"One row per model"</b> keeps the highest-scoring effort or reasoning variant of each model name (ties go to the cheaper one). It is on by default in the price view, where a model's reasoning settings all share one price and would only stack on top of each other, and off by default in the cost per task view. There, ticking it hides detail that matters: the top-scoring variant is usually the highest effort and the most expensive, and a lower effort setting of the same model is often better value.</li>
       <li><b>"Min score"</b> hides models below that index from both the chart and the frontier calculation, so an old, tiny model at a rock-bottom price does not anchor the line.</li>
       <li><b>Scores move.</b> AA re-bases the Index between versions, so compare against this page only, not against an older snapshot.</li>
     </ul>
@@ -313,7 +313,7 @@
   $("src").textContent = snapshot.attribution || "";
 
   /* ---------- state ---------- */
-  const state = { cost: "blended", minIdx: 30, collapse: false, maker: "", q: "", frontierOnly: false, labelsAll: false, showAllIndex: false, sortK: "index", sortDir: -1 };
+  const state = { cost: "blended", minIdx: 30, collapse: true, collapseSet: false, maker: "", q: "", frontierOnly: false, labelsAll: false, showAllIndex: false, sortK: "index", sortDir: -1 };
 
   // "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)" -> "Claude Opus 5.5 (max)"
   const baseName = (name) => name.replace(/\s*\([^)]*\)/g, "").trim();
@@ -604,11 +604,13 @@
 
   document.querySelectorAll("#costSeg button").forEach((b) => b.addEventListener("click", () => {
     state.cost = b.dataset.cost;
+    // price per 1M is identical across a model's reasoning settings, cost per task is not; follow that unless the user chose
+    if (!state.collapseSet) { state.collapse = state.cost === "blended"; $("collapse").checked = state.collapse; }
     document.querySelectorAll("#costSeg button").forEach((o) => o.setAttribute("aria-pressed", o === b ? "true" : "false"));
     render();
   }));
   $("minIdx").addEventListener("input", (e) => { state.minIdx = +e.target.value; $("minIdxVal").textContent = e.target.value; render(); });
-  $("collapse").addEventListener("change", (e) => { state.collapse = e.target.checked; render(); });
+  $("collapse").addEventListener("change", (e) => { state.collapse = e.target.checked; state.collapseSet = true; render(); });
   $("makerSel").addEventListener("change", (e) => { state.maker = e.target.value; render(); });
   $("search").addEventListener("input", (e) => { state.q = e.target.value; render(); });
   $("frontierOnly").addEventListener("change", (e) => { state.frontierOnly = e.target.checked; render(); });

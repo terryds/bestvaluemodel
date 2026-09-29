@@ -1,5 +1,124 @@
 [
   {
+    "date": "2026-09-29",
+    "added": [
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 46.7,
+        "blended": 4
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 35.8,
+        "blended": 4
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 56,
+        "blended": 4
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 40.7,
+        "blended": 4
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 51.9,
+        "blended": 4
+      }
+    ],
+    "removed": [
+      {
+        "name": "Granite 4.1 8B",
+        "creator": "IBM",
+        "index": 6.6,
+        "blended": 0.063
+      }
+    ],
+    "changed": [
+      {
+        "name": "DeepSeek V4 Flash 0420 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.119,
+            "to": 0.117
+          },
+          {
+            "field": "input",
+            "from": 0.094,
+            "to": 0.092
+          },
+          {
+            "field": "output",
+            "from": 0.195,
+            "to": 0.191
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Flash 0420 (Reasoning, High Effort)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.168,
+            "to": 0.143
+          },
+          {
+            "field": "input",
+            "from": 0.13,
+            "to": 0.112
+          },
+          {
+            "field": "output",
+            "from": 0.28,
+            "to": 0.238
+          }
+        ]
+      },
+      {
+        "name": "Hy3",
+        "creator": "Tencent",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.25,
+            "to": 0.241
+          },
+          {
+            "field": "input",
+            "from": 0.14,
+            "to": 0.136
+          },
+          {
+            "field": "output",
+            "from": 0.58,
+            "to": 0.555
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.5 9B (Reasoning)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "index",
+            "from": 13.7,
+            "to": 11.2
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "added": [
       {

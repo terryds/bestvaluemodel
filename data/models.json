@@ -1,7 +1,8 @@
 {
-  "fetched_at": "2026-09-29T12:49:50.699Z",
+  "fetched_at": "2026-09-29T14:26:42.647Z",
   "source": "artificialanalysis.ai",
   "endpoint": "https://artificialanalysis.ai/api/v2/data/llms/models",
+  "cost_endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
   "prompt_options": {
     "parallel_queries": 1,
     "prompt_length": 1000
@@ -21,6 +22,7 @@
       "blended": 1.345,
       "input": 0.82,
       "output": 2.92,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/apertus-70b-instruct"
@@ -37,6 +39,7 @@
       "blended": 0.125,
       "input": 0.1,
       "output": 0.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/apertus-8b-instruct"
@@ -53,6 +56,7 @@
       "blended": 0.975,
       "input": 0.3,
       "output": 3,
+      "task": 0.4637,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/apodex-1-1"
@@ -69,6 +73,7 @@
       "blended": 0.325,
       "input": 0.2,
       "output": 0.7,
+      "task": 0.0502,
       "tps": 2245,
       "ttft": 0.47,
       "url": "https://artificialanalysis.ai/models/celeris-1"
@@ -85,6 +90,7 @@
       "blended": 0.5,
       "input": 0.25,
       "output": 1.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-3-haiku"
@@ -101,6 +107,7 @@
       "blended": 30,
       "input": 15,
       "output": 75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-3-opus"
@@ -117,6 +124,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-35-sonnet-june-24"
@@ -133,6 +141,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-35-sonnet"
@@ -149,6 +158,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-3-7-sonnet"
@@ -165,6 +175,7 @@
       "blended": 30,
       "input": 15,
       "output": 75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-4-opus"
@@ -181,6 +192,7 @@
       "blended": 30,
       "input": 15,
       "output": 75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-4-opus-thinking"
@@ -197,6 +209,7 @@
       "blended": 30,
       "input": 15,
       "output": 75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-4-1-opus"
@@ -213,6 +226,7 @@
       "blended": 30,
       "input": 15,
       "output": 75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-4-1-opus-thinking"
@@ -229,6 +243,7 @@
       "blended": 2,
       "input": 1,
       "output": 5,
+      "task": null,
       "tps": 91,
       "ttft": 0.5,
       "url": "https://artificialanalysis.ai/models/claude-4-5-haiku"
@@ -245,6 +260,7 @@
       "blended": 2,
       "input": 1,
       "output": 5,
+      "task": 0.2768,
       "tps": 104,
       "ttft": 13.42,
       "url": "https://artificialanalysis.ai/models/claude-4-5-haiku-reasoning"
@@ -261,6 +277,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-4-5-sonnet"
@@ -277,6 +294,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": 0.5566,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-4-5-sonnet-thinking"
@@ -293,6 +311,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 8.746,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-fable-5"
@@ -309,6 +328,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 3.9125,
       "tps": 51,
       "ttft": 6.23,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
@@ -325,6 +345,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 2.371,
       "tps": 51,
       "ttft": 3.19,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
@@ -341,6 +362,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 7.6297,
       "tps": 69,
       "ttft": 119.53,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
@@ -357,6 +379,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 2.9826,
       "tps": 50,
       "ttft": 4.85,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium"
@@ -373,6 +396,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 5.9783,
       "tps": 61,
       "ttft": 36.22,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
@@ -389,6 +413,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-5"
@@ -405,6 +430,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-5-thinking"
@@ -421,6 +447,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-6-adaptive"
@@ -437,6 +464,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-6"
@@ -453,6 +481,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-7"
@@ -469,6 +498,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-7-non-reasoning"
@@ -485,6 +515,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": 4.081,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-4-8"
@@ -501,6 +532,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": 3.6133,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-high"
@@ -517,6 +549,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": 1.0983,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-low"
@@ -533,6 +566,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": 5.8584,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-5"
@@ -549,6 +583,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": 2.1895,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-medium"
@@ -565,6 +600,7 @@
       "blended": 10,
       "input": 5,
       "output": 25,
+      "task": 4.8778,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-xhigh"
@@ -581,6 +617,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 1.8225,
       "tps": 76,
       "ttft": 18.53,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high"
@@ -597,6 +634,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 0.5512,
       "tps": 75,
       "ttft": 4.85,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-low"
@@ -613,6 +651,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 5.982,
       "tps": 96,
       "ttft": 483.18,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
@@ -629,6 +668,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 1.336,
       "tps": 74,
       "ttft": 12.75,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-medium"
@@ -645,6 +685,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 3.4591,
       "tps": 82,
       "ttft": 59.47,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh"
@@ -661,6 +702,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": 2.4859,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive"
@@ -677,6 +719,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6"
@@ -693,6 +736,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-non-reasoning-low-effort"
@@ -709,6 +753,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 1.7925,
       "tps": 63,
       "ttft": 2.77,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-high"
@@ -725,6 +770,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.5088,
       "tps": 60,
       "ttft": 1.1,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-low"
@@ -741,6 +787,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 5.0912,
       "tps": 84,
       "ttft": 122.69,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5"
@@ -757,6 +804,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.9991,
       "tps": 58,
       "ttft": 1.21,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-medium"
@@ -773,6 +821,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 2.872,
       "tps": 73,
       "ttft": 15.77,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-xhigh"
@@ -789,6 +838,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": null,
       "tps": 58,
       "ttft": 0.88,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-non-reasoning"
@@ -805,6 +855,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 1.0798,
       "tps": 95,
       "ttft": 6.8,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-high"
@@ -821,6 +872,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.4144,
       "tps": 90,
       "ttft": 0.75,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-low"
@@ -837,6 +889,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 7.6026,
       "tps": 145,
       "ttft": 326.15,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
@@ -853,6 +906,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.5862,
       "tps": 88,
       "ttft": 0.73,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-medium"
@@ -869,6 +923,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 2.7426,
       "tps": 100,
       "ttft": 13.4,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-xhigh"
@@ -885,6 +940,7 @@
       "blended": 4.375,
       "input": 2.5,
       "output": 10,
+      "task": null,
       "tps": 59,
       "ttft": 0.36,
       "url": "https://artificialanalysis.ai/models/command-a"
@@ -901,6 +957,7 @@
       "blended": 2.5,
       "input": 2,
       "output": 4,
+      "task": 0.2617,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-r1-0120"
@@ -917,6 +974,7 @@
       "blended": 1.763,
       "input": 1.35,
       "output": 3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-r1"
@@ -933,6 +991,7 @@
       "blended": 0.8,
       "input": 0.7,
       "output": 1.1,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-r1-distill-llama-70b"
@@ -949,6 +1008,7 @@
       "blended": 0.463,
       "input": 0.32,
       "output": 0.89,
+      "task": 0.0198,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3"
@@ -965,6 +1025,7 @@
       "blended": 0.927,
       "input": 0.845,
       "output": 1.175,
+      "task": 0.1053,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-0324"
@@ -981,6 +1042,7 @@
       "blended": 0.848,
       "input": 0.57,
       "output": 1.68,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-1"
@@ -997,6 +1059,7 @@
       "blended": 0.865,
       "input": 0.59,
       "output": 1.69,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-1-reasoning"
@@ -1013,6 +1076,7 @@
       "blended": 0.453,
       "input": 0.27,
       "output": 1,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-1-terminus"
@@ -1029,6 +1093,7 @@
       "blended": 1.914,
       "input": 1.635,
       "output": 2.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-1-terminus-reasoning"
@@ -1045,6 +1110,7 @@
       "blended": 0.315,
       "input": 0.28,
       "output": 0.42,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-2"
@@ -1061,6 +1127,7 @@
       "blended": 0.315,
       "input": 0.28,
       "output": 0.42,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-2-reasoning"
@@ -1077,6 +1144,7 @@
       "blended": 0.315,
       "input": 0.28,
       "output": 0.42,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-2-0925"
@@ -1093,6 +1161,7 @@
       "blended": 0.315,
       "input": 0.28,
       "output": 0.42,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v3-2-reasoning-0925"
@@ -1109,6 +1178,7 @@
       "blended": 0.117,
       "input": 0.092,
       "output": 0.191,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-0420-non-reasoning"
@@ -1125,6 +1195,7 @@
       "blended": 0.143,
       "input": 0.112,
       "output": 0.238,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-0420-high"
@@ -1141,6 +1212,7 @@
       "blended": 0.168,
       "input": 0.13,
       "output": 0.28,
+      "task": 0.1075,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-0420"
@@ -1157,6 +1229,7 @@
       "blended": 0.66,
       "input": 0.44,
       "output": 1.32,
+      "task": 0.2196,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash"
@@ -1173,6 +1246,7 @@
       "blended": 0.66,
       "input": 0.44,
       "output": 1.32,
+      "task": 0.3144,
       "tps": 225,
       "ttft": 0.81,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-vision"
@@ -1189,6 +1263,7 @@
       "blended": 0.544,
       "input": 0.435,
       "output": 0.87,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-pro-0424-non-reasoning"
@@ -1205,6 +1280,7 @@
       "blended": 0.544,
       "input": 0.435,
       "output": 0.87,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-pro-0424-high"
@@ -1221,6 +1297,7 @@
       "blended": 0.544,
       "input": 0.435,
       "output": 0.87,
+      "task": 0.1215,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-pro-0424"
@@ -1237,6 +1314,7 @@
       "blended": 1.98,
       "input": 1.32,
       "output": 3.96,
+      "task": 0.674,
       "tps": 89,
       "ttft": 1.15,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-pro"
@@ -1253,6 +1331,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": 0.1467,
       "tps": 217,
       "ttft": 0.85,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-non-reasoning"
@@ -1269,6 +1348,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": 0.2652,
       "tps": 217,
       "ttft": 0.82,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash"
@@ -1285,6 +1365,7 @@
       "blended": 0.485,
       "input": 0.28,
       "output": 1.1,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/ernie-4-5-300b-a47b"
@@ -1301,6 +1382,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-flash"
@@ -1317,6 +1399,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-flash-reasoning"
@@ -1333,6 +1416,7 @@
       "blended": 0.175,
       "input": 0.1,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-flash-lite"
@@ -1349,6 +1433,7 @@
       "blended": 0.175,
       "input": 0.1,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-flash-lite-reasoning"
@@ -1365,6 +1450,7 @@
       "blended": 0.175,
       "input": 0.1,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-flash-lite-preview-09-2025"
@@ -1381,6 +1467,7 @@
       "blended": 0.175,
       "input": 0.1,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-flash-lite-preview-09-2025-reasoning"
@@ -1397,6 +1484,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": 0.2317,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-pro"
@@ -1413,6 +1501,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-2-5-pro-05-06"
@@ -1429,6 +1518,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-flash"
@@ -1445,6 +1535,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-flash-reasoning"
@@ -1461,6 +1552,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-pro"
@@ -1477,6 +1569,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-pro-low"
@@ -1493,6 +1586,7 @@
       "blended": 0.563,
       "input": 0.25,
       "output": 1.5,
+      "task": 0.0394,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-1-flash-lite-preview"
@@ -1509,6 +1603,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 0.6747,
       "tps": 131,
       "ttft": 20.31,
       "url": "https://artificialanalysis.ai/models/gemini-3-1-pro-preview"
@@ -1525,6 +1620,7 @@
       "blended": 3.375,
       "input": 1.5,
       "output": 9,
+      "task": 1.5625,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-5-flash"
@@ -1541,6 +1637,7 @@
       "blended": 3.375,
       "input": 1.5,
       "output": 9,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-5-flash-medium"
@@ -1557,6 +1654,7 @@
       "blended": 3.375,
       "input": 1.5,
       "output": 9,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-5-flash-minimal"
@@ -1573,6 +1671,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": 0.1235,
       "tps": 335,
       "ttft": 6.44,
       "url": "https://artificialanalysis.ai/models/gemini-3-5-flash-lite"
@@ -1589,6 +1688,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": 0.9288,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-6-flash"
@@ -1605,6 +1705,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": 0.9253,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-7-flash"
@@ -1621,6 +1722,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-7-flash-low"
@@ -1637,6 +1739,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-7-flash-medium"
@@ -1653,6 +1756,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": 1.2428,
       "tps": 238,
       "ttft": 11.91,
       "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
@@ -1669,6 +1773,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-8-flash-low"
@@ -1685,6 +1790,7 @@
       "blended": 1.5,
       "input": 0.75,
       "output": 3.75,
+      "task": 0.931,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemini-3-8-flash-medium"
@@ -1701,6 +1807,7 @@
       "blended": 0.15,
       "input": 0.1,
       "output": 0.3,
+      "task": null,
       "tps": 145,
       "ttft": 1.42,
       "url": "https://artificialanalysis.ai/models/gemma-4-12b-non-reasoning"
@@ -1717,6 +1824,7 @@
       "blended": 0.15,
       "input": 0.1,
       "output": 0.3,
+      "task": null,
       "tps": 152,
       "ttft": 1.35,
       "url": "https://artificialanalysis.ai/models/gemma-4-12b"
@@ -1733,6 +1841,7 @@
       "blended": 0.198,
       "input": 0.13,
       "output": 0.4,
+      "task": null,
       "tps": 102,
       "ttft": 0.62,
       "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b-non-reasoning"
@@ -1749,6 +1858,7 @@
       "blended": 0.168,
       "input": 0.1,
       "output": 0.37,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b"
@@ -1765,6 +1875,7 @@
       "blended": 0.205,
       "input": 0.14,
       "output": 0.4,
+      "task": null,
       "tps": 41,
       "ttft": 1.16,
       "url": "https://artificialanalysis.ai/models/gemma-4-31b-non-reasoning"
@@ -1781,6 +1892,7 @@
       "blended": 0.04,
       "input": 0.02,
       "output": 0.1,
+      "task": null,
       "tps": 74,
       "ttft": 0.3,
       "url": "https://artificialanalysis.ai/models/gemma-4-e4b-non-reasoning"
@@ -1797,6 +1909,7 @@
       "blended": 0.04,
       "input": 0.02,
       "output": 0.1,
+      "task": null,
       "tps": 73,
       "ttft": 0.33,
       "url": "https://artificialanalysis.ai/models/gemma-4-e4b"
@@ -1813,6 +1926,7 @@
       "blended": 0.237,
       "input": 0.15,
       "output": 0.5,
+      "task": 0.2533,
       "tps": 47,
       "ttft": 2.99,
       "url": "https://artificialanalysis.ai/models/glm-5-3-flash"
@@ -1829,6 +1943,7 @@
       "blended": 0.372,
       "input": 0.17,
       "output": 0.98,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-5-air"
@@ -1845,6 +1960,7 @@
       "blended": 0.9,
       "input": 0.6,
       "output": 1.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-5v"
@@ -1861,6 +1977,7 @@
       "blended": 0.9,
       "input": 0.6,
       "output": 1.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-5v-reasoning"
@@ -1877,6 +1994,7 @@
       "blended": 0.981,
       "input": 0.575,
       "output": 2.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-6"
@@ -1893,6 +2011,7 @@
       "blended": 0.963,
       "input": 0.55,
       "output": 2.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-6-reasoning"
@@ -1909,6 +2028,7 @@
       "blended": 0.45,
       "input": 0.3,
       "output": 0.9,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-6v"
@@ -1925,6 +2045,7 @@
       "blended": 0.45,
       "input": 0.3,
       "output": 0.9,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-6v-reasoning"
@@ -1941,6 +2062,7 @@
       "blended": 1,
       "input": 0.6,
       "output": 2.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-7-non-reasoning"
@@ -1957,6 +2079,7 @@
       "blended": 1,
       "input": 0.6,
       "output": 2.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-7"
@@ -1973,6 +2096,7 @@
       "blended": 0.153,
       "input": 0.07,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-7-flash-non-reasoning"
@@ -1989,6 +2113,7 @@
       "blended": 0.153,
       "input": 0.07,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-4-7-flash"
@@ -2005,6 +2130,7 @@
       "blended": 1.55,
       "input": 1,
       "output": 3.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-5-non-reasoning"
@@ -2021,6 +2147,7 @@
       "blended": 1.55,
       "input": 1,
       "output": 3.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-5"
@@ -2037,6 +2164,7 @@
       "blended": 2.135,
       "input": 1.38,
       "output": 4.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-5-1-non-reasoning"
@@ -2053,6 +2181,7 @@
       "blended": 1.981,
       "input": 1.285,
       "output": 4.07,
+      "task": 1.0193,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-5-1"
@@ -2069,6 +2198,7 @@
       "blended": 2.15,
       "input": 1.4,
       "output": 4.4,
+      "task": 1.4726,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-5-2"
@@ -2085,6 +2215,7 @@
       "blended": 2.15,
       "input": 1.4,
       "output": 4.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/glm-5-2-non-reasoning"
@@ -2101,6 +2232,7 @@
       "blended": 2.15,
       "input": 1.4,
       "output": 4.4,
+      "task": 0.8522,
       "tps": 77,
       "ttft": 3.22,
       "url": "https://artificialanalysis.ai/models/glm-5-3-low"
@@ -2117,6 +2249,7 @@
       "blended": 2.15,
       "input": 1.4,
       "output": 4.4,
+      "task": 2.0056,
       "tps": 72,
       "ttft": 2.76,
       "url": "https://artificialanalysis.ai/models/glm-5-3"
@@ -2133,6 +2266,7 @@
       "blended": 0.75,
       "input": 0.5,
       "output": 1.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-35-turbo"
@@ -2149,6 +2283,7 @@
       "blended": 37.5,
       "input": 30,
       "output": 60,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4"
@@ -2165,6 +2300,7 @@
       "blended": 15,
       "input": 10,
       "output": 30,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4-turbo"
@@ -2181,6 +2317,7 @@
       "blended": 3.5,
       "input": 2,
       "output": 8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4-1"
@@ -2197,6 +2334,7 @@
       "blended": 0.7,
       "input": 0.4,
       "output": 1.6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4-1-mini"
@@ -2213,6 +2351,7 @@
       "blended": 0.175,
       "input": 0.1,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4-1-nano"
@@ -2229,6 +2368,7 @@
       "blended": 4.375,
       "input": 2.5,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4o-2024-08-06"
@@ -2245,6 +2385,7 @@
       "blended": 7.5,
       "input": 5,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4o-2024-05-13"
@@ -2261,6 +2402,7 @@
       "blended": 4.375,
       "input": 2.5,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4o"
@@ -2277,6 +2419,7 @@
       "blended": 0.262,
       "input": 0.15,
       "output": 0.6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-4o-mini"
@@ -2293,6 +2436,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5"
@@ -2309,6 +2453,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-low"
@@ -2325,6 +2470,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-medium"
@@ -2341,6 +2487,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-minimal"
@@ -2357,6 +2504,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-codex"
@@ -2373,6 +2521,7 @@
       "blended": 0.688,
       "input": 0.25,
       "output": 2,
+      "task": 0.0535,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-mini"
@@ -2389,6 +2538,7 @@
       "blended": 0.688,
       "input": 0.25,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-mini-medium"
@@ -2405,6 +2555,7 @@
       "blended": 0.688,
       "input": 0.25,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-mini-minimal"
@@ -2421,6 +2572,7 @@
       "blended": 0.138,
       "input": 0.05,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-nano"
@@ -2437,6 +2589,7 @@
       "blended": 0.138,
       "input": 0.05,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-nano-medium"
@@ -2453,6 +2606,7 @@
       "blended": 0.138,
       "input": 0.05,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-nano-minimal"
@@ -2469,6 +2623,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-1"
@@ -2485,6 +2640,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-1-non-reasoning"
@@ -2501,6 +2657,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-1-codex"
@@ -2517,6 +2674,7 @@
       "blended": 0.688,
       "input": 0.25,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-1-codex-mini"
@@ -2533,6 +2691,7 @@
       "blended": 4.813,
       "input": 1.75,
       "output": 14,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-2-medium"
@@ -2549,6 +2708,7 @@
       "blended": 4.813,
       "input": 1.75,
       "output": 14,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-2-non-reasoning"
@@ -2565,6 +2725,7 @@
       "blended": 4.813,
       "input": 1.75,
       "output": 14,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-2"
@@ -2581,6 +2742,7 @@
       "blended": 4.813,
       "input": 1.75,
       "output": 14,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-2-codex"
@@ -2597,6 +2759,7 @@
       "blended": 4.813,
       "input": 1.75,
       "output": 14,
+      "task": null,
       "tps": 114,
       "ttft": 37.74,
       "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
@@ -2613,6 +2776,7 @@
       "blended": 5.625,
       "input": 2.5,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-low"
@@ -2629,6 +2793,7 @@
       "blended": 5.625,
       "input": 2.5,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-non-reasoning"
@@ -2645,6 +2810,7 @@
       "blended": 5.625,
       "input": 2.5,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4"
@@ -2661,6 +2827,7 @@
       "blended": 1.688,
       "input": 0.75,
       "output": 4.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-mini-medium"
@@ -2677,6 +2844,7 @@
       "blended": 1.688,
       "input": 0.75,
       "output": 4.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-mini-non-reasoning"
@@ -2693,6 +2861,7 @@
       "blended": 1.688,
       "input": 0.75,
       "output": 4.5,
+      "task": 0.4474,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-mini"
@@ -2709,6 +2878,7 @@
       "blended": 0.463,
       "input": 0.2,
       "output": 1.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-nano-medium"
@@ -2725,6 +2895,7 @@
       "blended": 0.463,
       "input": 0.2,
       "output": 1.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-nano-non-reasoning"
@@ -2741,6 +2912,7 @@
       "blended": 0.463,
       "input": 0.2,
       "output": 1.25,
+      "task": 0.1831,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-4-nano"
@@ -2757,6 +2929,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": 1.5413,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-high"
@@ -2773,6 +2946,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-low"
@@ -2789,6 +2963,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": 0.9017,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-medium"
@@ -2805,6 +2980,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-non-reasoning"
@@ -2821,6 +2997,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": 2.634,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-5"
@@ -2837,6 +3014,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": 0.6915,
       "tps": 129,
       "ttft": 0.82,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-instant-06-26"
@@ -2853,6 +3031,7 @@
       "blended": 11.25,
       "input": 5,
       "output": 30,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-instant-05-26"
@@ -2869,6 +3048,7 @@
       "blended": 0.45,
       "input": 0.2,
       "output": 1.2,
+      "task": 0.044,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-luna-high"
@@ -2885,6 +3065,7 @@
       "blended": 0.45,
       "input": 0.2,
       "output": 1.2,
+      "task": 0.0098,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-luna-low"
@@ -2901,6 +3082,7 @@
       "blended": 0.45,
       "input": 0.2,
       "output": 1.2,
+      "task": 0.1783,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-luna"
@@ -2917,6 +3099,7 @@
       "blended": 0.45,
       "input": 0.2,
       "output": 1.2,
+      "task": 0.0156,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-luna-medium"
@@ -2933,6 +3116,7 @@
       "blended": 0.45,
       "input": 0.2,
       "output": 1.2,
+      "task": 0.0101,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-luna-non-reasoning"
@@ -2949,6 +3133,7 @@
       "blended": 0.45,
       "input": 0.2,
       "output": 1.2,
+      "task": 0.0853,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-luna-xhigh"
@@ -2965,6 +3150,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 0.808,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-high"
@@ -2981,6 +3167,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 0.2606,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-low"
@@ -2997,6 +3184,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 1.9885,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-sol"
@@ -3013,6 +3201,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 0.505,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-medium"
@@ -3029,6 +3218,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-non-reasoning"
@@ -3045,6 +3235,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": 1.1844,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-sol-xhigh"
@@ -3061,6 +3252,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 0.3379,
       "tps": 95,
       "ttft": 2.18,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-high"
@@ -3077,6 +3269,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 0.1445,
       "tps": 94,
       "ttft": 1.42,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-low"
@@ -3093,6 +3286,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 1.3987,
       "tps": 111,
       "ttft": 87.21,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra"
@@ -3109,6 +3303,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 0.1834,
       "tps": 97,
       "ttft": 1.79,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-medium"
@@ -3125,6 +3320,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 0.1397,
       "tps": 91,
       "ttft": 0.72,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-non-reasoning"
@@ -3141,6 +3337,7 @@
       "blended": 4.5,
       "input": 2,
       "output": 12,
+      "task": 0.6318,
       "tps": 99,
       "ttft": 8.15,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-xhigh"
@@ -3157,6 +3354,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 1.7253,
       "tps": 55,
       "ttft": 29.69,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-high"
@@ -3173,6 +3371,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 0.8175,
       "tps": 51,
       "ttft": 1.64,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-low"
@@ -3189,6 +3388,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 3.2575,
       "tps": 62,
       "ttft": 190.62,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra"
@@ -3205,6 +3405,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 1.5406,
       "tps": 53,
       "ttft": 3.58,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-medium"
@@ -3221,6 +3422,7 @@
       "blended": 20,
       "input": 10,
       "output": 50,
+      "task": 2.3088,
       "tps": 56,
       "ttft": 74.01,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh"
@@ -3237,6 +3439,7 @@
       "blended": 0.2,
       "input": 0.1,
       "output": 0.5,
+      "task": 0.0291,
       "tps": 145,
       "ttft": 6.92,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-high"
@@ -3253,6 +3456,7 @@
       "blended": 0.2,
       "input": 0.1,
       "output": 0.5,
+      "task": 0.0045,
       "tps": 137,
       "ttft": 2.28,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-low"
@@ -3269,6 +3473,7 @@
       "blended": 0.2,
       "input": 0.1,
       "output": 0.5,
+      "task": 0.0679,
       "tps": 143,
       "ttft": 68.01,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna"
@@ -3285,6 +3490,7 @@
       "blended": 0.2,
       "input": 0.1,
       "output": 0.5,
+      "task": 0.0176,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-medium"
@@ -3301,6 +3507,7 @@
       "blended": 0.2,
       "input": 0.1,
       "output": 0.5,
+      "task": 0.0115,
       "tps": 138,
       "ttft": 0.74,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-non-reasoning"
@@ -3317,6 +3524,7 @@
       "blended": 0.2,
       "input": 0.1,
       "output": 0.5,
+      "task": 0.0421,
       "tps": 141,
       "ttft": 14.69,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-xhigh"
@@ -3333,6 +3541,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.3753,
       "tps": 74,
       "ttft": 15.13,
       "url": "https://artificialanalysis.ai/models/gpt-6-sol-high"
@@ -3349,6 +3558,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.1326,
       "tps": 76,
       "ttft": 1.81,
       "url": "https://artificialanalysis.ai/models/gpt-6-sol-low"
@@ -3365,6 +3575,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 1.0494,
       "tps": 84,
       "ttft": 108.52,
       "url": "https://artificialanalysis.ai/models/gpt-6-sol"
@@ -3381,6 +3592,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.2472,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/gpt-6-sol-medium"
@@ -3397,6 +3609,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.3334,
       "tps": 74,
       "ttft": 1.01,
       "url": "https://artificialanalysis.ai/models/gpt-6-sol-non-reasoning"
@@ -3413,6 +3626,7 @@
       "blended": 4,
       "input": 2,
       "output": 10,
+      "task": 0.5236,
       "tps": 77,
       "ttft": 32.39,
       "url": "https://artificialanalysis.ai/models/gpt-6-sol-xhigh"
@@ -3429,6 +3643,7 @@
       "blended": 0.261,
       "input": 0.15,
       "output": 0.595,
+      "task": 0.1074,
       "tps": 214,
       "ttft": 0.56,
       "url": "https://artificialanalysis.ai/models/gpt-oss-120b"
@@ -3445,6 +3660,7 @@
       "blended": 0.249,
       "input": 0.15,
       "output": 0.545,
+      "task": null,
       "tps": 218,
       "ttft": 0.54,
       "url": "https://artificialanalysis.ai/models/gpt-oss-120b-low"
@@ -3461,6 +3677,7 @@
       "blended": 0.098,
       "input": 0.07,
       "output": 0.18,
+      "task": 0.0125,
       "tps": 188,
       "ttft": 0.43,
       "url": "https://artificialanalysis.ai/models/gpt-oss-20b"
@@ -3477,6 +3694,7 @@
       "blended": 0.106,
       "input": 0.07,
       "output": 0.215,
+      "task": null,
       "tps": 248,
       "ttft": 0.55,
       "url": "https://artificialanalysis.ai/models/gpt-oss-20b-low"
@@ -3493,6 +3711,7 @@
       "blended": 0.085,
       "input": 0.03,
       "output": 0.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/granite-3-3-8b-instruct"
@@ -3509,6 +3728,7 @@
       "blended": 0.107,
       "input": 0.06,
       "output": 0.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/granite-4-0-h-small"
@@ -3525,6 +3745,7 @@
       "blended": 0.282,
       "input": 0.16,
       "output": 0.65,
+      "task": null,
       "tps": 78,
       "ttft": 0.29,
       "url": "https://artificialanalysis.ai/models/granite-4-2-30b"
@@ -3541,6 +3762,7 @@
       "blended": 0.052,
       "input": 0.03,
       "output": 0.12,
+      "task": 0.006,
       "tps": 232,
       "ttft": 0.24,
       "url": "https://artificialanalysis.ai/models/granite-4-2-3b"
@@ -3557,6 +3779,7 @@
       "blended": 0.107,
       "input": 0.06,
       "output": 0.25,
+      "task": 0.0236,
       "tps": 67,
       "ttft": 0.38,
       "url": "https://artificialanalysis.ai/models/granite-4-2-8b"
@@ -3573,6 +3796,7 @@
       "blended": 8,
       "input": 4,
       "output": 20,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-3"
@@ -3589,6 +3813,7 @@
       "blended": 0.35,
       "input": 0.3,
       "output": 0.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-3-mini-reasoning"
@@ -3605,6 +3830,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4"
@@ -3621,6 +3847,7 @@
       "blended": 0.275,
       "input": 0.2,
       "output": 0.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-fast"
@@ -3637,6 +3864,7 @@
       "blended": 0.275,
       "input": 0.2,
       "output": 0.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-fast-reasoning"
@@ -3653,6 +3881,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-20-0309-non-reasoning"
@@ -3669,6 +3898,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-20-0309"
@@ -3685,6 +3915,7 @@
       "blended": 1.563,
       "input": 1.25,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-20-non-reasoning"
@@ -3701,6 +3932,7 @@
       "blended": 1.563,
       "input": 1.25,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-20"
@@ -3717,6 +3949,7 @@
       "blended": 1.563,
       "input": 1.25,
       "output": 2.5,
+      "task": 0.2054,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-3"
@@ -3733,6 +3966,7 @@
       "blended": 1.563,
       "input": 1.25,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-3-low"
@@ -3749,6 +3983,7 @@
       "blended": 1.563,
       "input": 1.25,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-3-medium"
@@ -3765,6 +4000,7 @@
       "blended": 1.563,
       "input": 1.25,
       "output": 2.5,
+      "task": 0.1697,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-3-non-reasoning"
@@ -3781,6 +4017,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 1.0365,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-4-5"
@@ -3797,6 +4034,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 1.8589,
       "tps": 72,
       "ttft": 23.41,
       "url": "https://artificialanalysis.ai/models/grok-4-6"
@@ -3813,6 +4051,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 0.4753,
       "tps": 61,
       "ttft": 3.41,
       "url": "https://artificialanalysis.ai/models/grok-4-6-low"
@@ -3829,6 +4068,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 1.4963,
       "tps": 61,
       "ttft": 21.09,
       "url": "https://artificialanalysis.ai/models/grok-4-6-medium"
@@ -3845,6 +4085,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 2.3237,
       "tps": 70,
       "ttft": 24.72,
       "url": "https://artificialanalysis.ai/models/grok-4-6-xhigh"
@@ -3861,6 +4102,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 2.7261,
       "tps": 79,
       "ttft": 21.38,
       "url": "https://artificialanalysis.ai/models/grok-4-7-high"
@@ -3877,6 +4119,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 3.7383,
       "tps": 72,
       "ttft": 19.84,
       "url": "https://artificialanalysis.ai/models/grok-4-7"
@@ -3893,6 +4136,7 @@
       "blended": 1.25,
       "input": 1,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/grok-build-0-1-06-16"
@@ -3909,6 +4153,7 @@
       "blended": 0.7,
       "input": 0.7,
       "output": 0.7,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/hermes-3-llama-3-1-70b"
@@ -3925,6 +4170,7 @@
       "blended": 1.5,
       "input": 1,
       "output": 3,
+      "task": null,
       "tps": 42,
       "ttft": 0.67,
       "url": "https://artificialanalysis.ai/models/hermes-4-llama-3-1-405b"
@@ -3941,6 +4187,7 @@
       "blended": 1.5,
       "input": 1,
       "output": 3,
+      "task": null,
       "tps": 44,
       "ttft": 0.72,
       "url": "https://artificialanalysis.ai/models/hermes-4-llama-3-1-405b-reasoning"
@@ -3957,6 +4204,7 @@
       "blended": 0.241,
       "input": 0.136,
       "output": 0.555,
+      "task": 0.0718,
       "tps": 96,
       "ttft": 1.99,
       "url": "https://artificialanalysis.ai/models/hy3"
@@ -3973,6 +4221,7 @@
       "blended": 0.1,
       "input": 0.063,
       "output": 0.21,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/hy3-non-reasoning"
@@ -3989,6 +4238,7 @@
       "blended": 0.1,
       "input": 0.063,
       "output": 0.21,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/hy3-preview"
@@ -4005,6 +4255,7 @@
       "blended": 1.762,
       "input": 1,
       "output": 4.05,
+      "task": null,
       "tps": 186,
       "ttft": 2.15,
       "url": "https://artificialanalysis.ai/models/inkling"
@@ -4021,6 +4272,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": 225,
       "ttft": 1.7,
       "url": "https://artificialanalysis.ai/models/inkling-small"
@@ -4037,6 +4289,7 @@
       "blended": 3.5,
       "input": 2,
       "output": 8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/jamba-1-5-large"
@@ -4053,6 +4306,7 @@
       "blended": 0.25,
       "input": 0.2,
       "output": 0.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/jamba-1-5-mini"
@@ -4069,6 +4323,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kat-coder-pro-v2"
@@ -4085,6 +4340,7 @@
       "blended": 1.002,
       "input": 0.57,
       "output": 2.3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2"
@@ -4101,6 +4357,7 @@
       "blended": 1.075,
       "input": 0.6,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-0905"
@@ -4117,6 +4374,7 @@
       "blended": 1.075,
       "input": 0.6,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-thinking"
@@ -4133,6 +4391,7 @@
       "blended": 1.2,
       "input": 0.6,
       "output": 3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-5-non-reasoning"
@@ -4149,6 +4408,7 @@
       "blended": 1.137,
       "input": 0.6,
       "output": 2.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-5"
@@ -4165,6 +4425,7 @@
       "blended": 1.712,
       "input": 0.95,
       "output": 4,
+      "task": 0.7998,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-6"
@@ -4181,6 +4442,7 @@
       "blended": 1.712,
       "input": 0.95,
       "output": 4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-6-non-reasoning"
@@ -4197,6 +4459,7 @@
       "blended": 1.712,
       "input": 0.95,
       "output": 4,
+      "task": 0.5412,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k2-7-code"
@@ -4213,6 +4476,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k3-low"
@@ -4229,6 +4493,7 @@
       "blended": 6,
       "input": 3,
       "output": 15,
+      "task": 2.0001,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/kimi-k3"
@@ -4245,6 +4510,7 @@
       "blended": 0.111,
       "input": 0.075,
       "output": 0.22,
+      "task": null,
       "tps": 376,
       "ttft": 1.79,
       "url": "https://artificialanalysis.ai/models/ling-3-0-flash"
@@ -4261,6 +4527,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/ling-2-6-1t"
@@ -4277,6 +4544,7 @@
       "blended": 0.111,
       "input": 0.075,
       "output": 0.22,
+      "task": null,
       "tps": 167,
       "ttft": 1.39,
       "url": "https://artificialanalysis.ai/models/ling-3-0-flash-fin"
@@ -4293,6 +4561,7 @@
       "blended": 0.111,
       "input": 0.075,
       "output": 0.22,
+      "task": null,
       "tps": 149,
       "ttft": 1.25,
       "url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl"
@@ -4309,6 +4578,7 @@
       "blended": 0.247,
       "input": 0.14,
       "output": 0.57,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/ling-flash-2-0"
@@ -4325,6 +4595,7 @@
       "blended": 0.1,
       "input": 0.05,
       "output": 0.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/llama-2-chat-7b"
@@ -4341,6 +4612,7 @@
       "blended": 1.175,
       "input": 0.65,
       "output": 2.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/llama-3-instruct-70b"
@@ -4357,6 +4629,7 @@
       "blended": 0.07,
       "input": 0.045,
       "output": 0.145,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/llama-3-instruct-8b"
@@ -4373,6 +4646,7 @@
       "blended": 0.56,
       "input": 0.56,
       "output": 0.56,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/llama-3-1-instruct-70b"
@@ -4389,6 +4663,7 @@
       "blended": 0.028,
       "input": 0.02,
       "output": 0.05,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/llama-3-1-instruct-8b"
@@ -4405,6 +4680,7 @@
       "blended": 0.345,
       "input": 0.345,
       "output": 0.345,
+      "task": null,
       "tps": 14,
       "ttft": 1.4,
       "url": "https://artificialanalysis.ai/models/llama-3-2-instruct-11b-vision"
@@ -4421,6 +4697,7 @@
       "blended": 0.712,
       "input": 0.71,
       "output": 0.72,
+      "task": null,
       "tps": 94,
       "ttft": 0.62,
       "url": "https://artificialanalysis.ai/models/llama-3-3-instruct-70b"
@@ -4437,6 +4714,7 @@
       "blended": 0.422,
       "input": 0.26,
       "output": 0.91,
+      "task": null,
       "tps": 103,
       "ttft": 0.58,
       "url": "https://artificialanalysis.ai/models/llama-4-maverick"
@@ -4453,6 +4731,7 @@
       "blended": 0.313,
       "input": 0.19,
       "output": 0.68,
+      "task": null,
       "tps": 131,
       "ttft": 0.66,
       "url": "https://artificialanalysis.ai/models/llama-4-scout"
@@ -4469,6 +4748,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": 0.059,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/longcat-2-0"
@@ -4485,6 +4765,7 @@
       "blended": 0.75,
       "input": 0.5,
       "output": 1.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/magistral-small-2509"
@@ -4501,6 +4782,7 @@
       "blended": 0.375,
       "input": 0.25,
       "output": 0.75,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mercury-2"
@@ -4517,6 +4799,7 @@
       "blended": 0.375,
       "input": 0.25,
       "output": 0.75,
+      "task": 0.1167,
       "tps": 746,
       "ttft": 2.83,
       "url": "https://artificialanalysis.ai/models/mercury-2-5"
@@ -4533,6 +4816,7 @@
       "blended": 0.15,
       "input": 0.1,
       "output": 0.3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mimo-v2-flash-reasoning"
@@ -4549,6 +4833,7 @@
       "blended": 0.175,
       "input": 0.14,
       "output": 0.28,
+      "task": null,
       "tps": 45,
       "ttft": 2.27,
       "url": "https://artificialanalysis.ai/models/mimo-v2-5-0424"
@@ -4565,6 +4850,7 @@
       "blended": 0.544,
       "input": 0.435,
       "output": 0.87,
+      "task": 0.0541,
       "tps": 29,
       "ttft": 2.18,
       "url": "https://artificialanalysis.ai/models/mimo-v2-5-pro"
@@ -4581,6 +4867,7 @@
       "blended": 0.544,
       "input": 0.435,
       "output": 0.87,
+      "task": null,
       "tps": 26,
       "ttft": 1.4,
       "url": "https://artificialanalysis.ai/models/mimo-v2-5-pro-non-reasoning"
@@ -4597,6 +4884,7 @@
       "blended": 0.175,
       "input": 0.14,
       "output": 0.28,
+      "task": 0.0622,
       "tps": 50,
       "ttft": 3.99,
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-flash"
@@ -4613,6 +4901,7 @@
       "blended": 0.544,
       "input": 0.435,
       "output": 0.87,
+      "task": 0.1332,
       "tps": 44,
       "ttft": 2.94,
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
@@ -4629,6 +4918,7 @@
       "blended": 0.963,
       "input": 0.55,
       "output": 2.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/minimax-m1-80k"
@@ -4645,6 +4935,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/minimax-m2"
@@ -4661,6 +4952,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/minimax-m2-1"
@@ -4677,6 +4969,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/minimax-m2-5"
@@ -4693,6 +4986,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/minimax-m2-7"
@@ -4709,6 +5003,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": 0.5076,
       "tps": 138,
       "ttft": 0.91,
       "url": "https://artificialanalysis.ai/models/minimax-m3"
@@ -4725,6 +5020,7 @@
       "blended": 0.2,
       "input": 0.2,
       "output": 0.2,
+      "task": 0.0194,
       "tps": 91,
       "ttft": 0.52,
       "url": "https://artificialanalysis.ai/models/ministral-3-14b"
@@ -4741,6 +5037,7 @@
       "blended": 0.1,
       "input": 0.1,
       "output": 0.1,
+      "task": 0.0078,
       "tps": 240,
       "ttft": 0.52,
       "url": "https://artificialanalysis.ai/models/ministral-3-3b"
@@ -4757,6 +5054,7 @@
       "blended": 0.15,
       "input": 0.15,
       "output": 0.15,
+      "task": 0.0111,
       "tps": 105,
       "ttft": 0.46,
       "url": "https://artificialanalysis.ai/models/ministral-3-8b"
@@ -4773,6 +5071,7 @@
       "blended": 0.162,
       "input": 0.15,
       "output": 0.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-7b-instruct"
@@ -4789,6 +5088,7 @@
       "blended": 6,
       "input": 4,
       "output": 12,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-large"
@@ -4805,6 +5105,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-large-2407"
@@ -4821,6 +5122,7 @@
       "blended": 0.75,
       "input": 0.5,
       "output": 1.5,
+      "task": 0.0311,
       "tps": 78,
       "ttft": 0.77,
       "url": "https://artificialanalysis.ai/models/mistral-large-3"
@@ -4837,6 +5139,7 @@
       "blended": 0.8,
       "input": 0.4,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-medium-3"
@@ -4853,6 +5156,7 @@
       "blended": 3,
       "input": 1.5,
       "output": 7.5,
+      "task": 0.502,
       "tps": 170,
       "ttft": 0.61,
       "url": "https://artificialanalysis.ai/models/mistral-medium-3-5"
@@ -4869,6 +5173,7 @@
       "blended": 0.058,
       "input": 0.05,
       "output": 0.08,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-small-3"
@@ -4885,6 +5190,7 @@
       "blended": 0.125,
       "input": 0.11,
       "output": 0.17,
+      "task": 0.035,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-small-3-1"
@@ -4901,6 +5207,7 @@
       "blended": 0.106,
       "input": 0.075,
       "output": 0.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mistral-small-3-2"
@@ -4917,6 +5224,7 @@
       "blended": 0.262,
       "input": 0.15,
       "output": 0.6,
+      "task": null,
       "tps": 153,
       "ttft": 0.56,
       "url": "https://artificialanalysis.ai/models/mistral-small-4-non-reasoning"
@@ -4933,6 +5241,7 @@
       "blended": 0.262,
       "input": 0.15,
       "output": 0.6,
+      "task": 0.015,
       "tps": 174,
       "ttft": 0.54,
       "url": "https://artificialanalysis.ai/models/mistral-small-4"
@@ -4949,6 +5258,7 @@
       "blended": 0.512,
       "input": 0.45,
       "output": 0.7,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/mixtral-8x7b-instruct"
@@ -4965,6 +5275,7 @@
       "blended": 0.581,
       "input": 0.325,
       "output": 1.35,
+      "task": 0.0567,
       "tps": 162,
       "ttft": 0.48,
       "url": "https://artificialanalysis.ai/models/muse-glimmer"
@@ -4981,6 +5292,7 @@
       "blended": 2,
       "input": 1.25,
       "output": 4.25,
+      "task": 1.3802,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/muse-spark-1-1"
@@ -4997,6 +5309,7 @@
       "blended": 2,
       "input": 1.25,
       "output": 4.25,
+      "task": 0.9747,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/muse-spark-1-2"
@@ -5013,6 +5326,7 @@
       "blended": 2,
       "input": 1.25,
       "output": 4.25,
+      "task": 1.6049,
       "tps": 212,
       "ttft": 20.09,
       "url": "https://artificialanalysis.ai/models/muse-spark-1-3"
@@ -5029,6 +5343,7 @@
       "blended": 2,
       "input": 1.25,
       "output": 4.25,
+      "task": 1.3678,
       "tps": 151,
       "ttft": 42.24,
       "url": "https://artificialanalysis.ai/models/muse-spark-1-3-xhigh"
@@ -5045,6 +5360,7 @@
       "blended": 0.42,
       "input": 0.195,
       "output": 1.095,
+      "task": null,
       "tps": 267,
       "ttft": 0.26,
       "url": "https://artificialanalysis.ai/models/nemotron-3-nano-omni-30b-a3b"
@@ -5061,6 +5377,7 @@
       "blended": 0.45,
       "input": 0.3,
       "output": 0.9,
+      "task": 1.6391,
       "tps": 165,
       "ttft": 0.81,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-super-120b-a12b"
@@ -5077,6 +5394,7 @@
       "blended": 1.075,
       "input": 0.6,
       "output": 2.5,
+      "task": 0.5976,
       "tps": 209,
       "ttft": 0.81,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-ultra-550b-a55b"
@@ -5093,6 +5411,7 @@
       "blended": 0.108,
       "input": 0.07,
       "output": 0.22,
+      "task": 0.1004,
       "tps": 265,
       "ttft": 0.47,
       "url": "https://artificialanalysis.ai/models/nemotron-3-5-lightning"
@@ -5109,6 +5428,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": 203,
       "ttft": 13.83,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning"
@@ -5125,6 +5445,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": 213,
       "ttft": 4.69,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning-low"
@@ -5141,6 +5462,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": 206,
       "ttft": 13.04,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning-medium"
@@ -5157,6 +5479,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": 224,
       "ttft": 0.84,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite"
@@ -5173,6 +5496,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/nova-2-0-omni-reasoning-low"
@@ -5189,6 +5513,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/nova-2-0-omni-reasoning-medium"
@@ -5205,6 +5530,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/nova-2-0-omni"
@@ -5221,6 +5547,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": 126,
       "ttft": 3.59,
       "url": "https://artificialanalysis.ai/models/nova-2-0-pro-reasoning-low"
@@ -5237,6 +5564,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": 125,
       "ttft": 17.3,
       "url": "https://artificialanalysis.ai/models/nova-2-0-pro-reasoning-medium"
@@ -5253,6 +5581,7 @@
       "blended": 3.438,
       "input": 1.25,
       "output": 10,
+      "task": null,
       "tps": 132,
       "ttft": 0.68,
       "url": "https://artificialanalysis.ai/models/nova-2-0-pro"
@@ -5269,6 +5598,7 @@
       "blended": 0.105,
       "input": 0.06,
       "output": 0.24,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/nova-lite"
@@ -5285,6 +5615,7 @@
       "blended": 0.061,
       "input": 0.035,
       "output": 0.14,
+      "task": null,
       "tps": 260,
       "ttft": 0.57,
       "url": "https://artificialanalysis.ai/models/nova-micro"
@@ -5301,6 +5632,7 @@
       "blended": 1.4,
       "input": 0.8,
       "output": 3.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/nova-pro"
@@ -5317,6 +5649,7 @@
       "blended": 0.088,
       "input": 0.05,
       "output": 0.2,
+      "task": null,
       "tps": 230,
       "ttft": 0.38,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b"
@@ -5333,6 +5666,7 @@
       "blended": 0.088,
       "input": 0.05,
       "output": 0.2,
+      "task": 0.0168,
       "tps": 163,
       "ttft": 0.55,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b-reasoning"
@@ -5349,6 +5683,7 @@
       "blended": 0.3,
       "input": 0.2,
       "output": 0.6,
+      "task": null,
       "tps": 205,
       "ttft": 0.78,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-nano-12b-v2-vl"
@@ -5365,6 +5700,7 @@
       "blended": 0.086,
       "input": 0.05,
       "output": 0.195,
+      "task": null,
       "tps": 159,
       "ttft": 1.16,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-nano-9b-v2"
@@ -5381,6 +5717,7 @@
       "blended": 0.07,
       "input": 0.04,
       "output": 0.16,
+      "task": null,
       "tps": 91,
       "ttft": 6.3,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-nano-9b-v2-reasoning"
@@ -5397,6 +5734,7 @@
       "blended": 26.25,
       "input": 15,
       "output": 60,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o1"
@@ -5413,6 +5751,7 @@
       "blended": 28.875,
       "input": 16.5,
       "output": 66,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o1-preview"
@@ -5429,6 +5768,7 @@
       "blended": 262.5,
       "input": 150,
       "output": 600,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o1-pro"
@@ -5445,6 +5785,7 @@
       "blended": 3.5,
       "input": 2,
       "output": 8,
+      "task": null,
       "tps": 166,
       "ttft": 5.31,
       "url": "https://artificialanalysis.ai/models/o3"
@@ -5461,6 +5802,7 @@
       "blended": 1.925,
       "input": 1.1,
       "output": 4.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o3-mini"
@@ -5477,6 +5819,7 @@
       "blended": 1.925,
       "input": 1.1,
       "output": 4.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o3-mini-high"
@@ -5493,6 +5836,7 @@
       "blended": 35,
       "input": 20,
       "output": 80,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o3-pro"
@@ -5509,6 +5853,7 @@
       "blended": 1.925,
       "input": 1.1,
       "output": 4.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/o4-mini"
@@ -5525,6 +5870,7 @@
       "blended": 0.125,
       "input": 0.1,
       "output": 0.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/olmo-3-7b-instruct"
@@ -5541,6 +5887,7 @@
       "blended": 0.219,
       "input": 0.125,
       "output": 0.5,
+      "task": null,
       "tps": 44,
       "ttft": 1.02,
       "url": "https://artificialanalysis.ai/models/phi-4"
@@ -5557,6 +5904,7 @@
       "blended": 0.9,
       "input": 0.6,
       "output": 1.8,
+      "task": 2.0246,
       "tps": 161,
       "ttft": 0.46,
       "url": "https://artificialanalysis.ai/models/quasar-438b"
@@ -5573,6 +5921,7 @@
       "blended": 0.48,
       "input": 0.475,
       "output": 0.495,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen2-5-72b-instruct"
@@ -5589,6 +5938,7 @@
       "blended": 0.088,
       "input": 0.05,
       "output": 0.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen-turbo"
@@ -5605,6 +5955,7 @@
       "blended": 0.612,
       "input": 0.35,
       "output": 1.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-14b-instruct"
@@ -5621,6 +5972,7 @@
       "blended": 1.313,
       "input": 0.35,
       "output": 4.2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-14b-instruct-reasoning"
@@ -5637,6 +5989,7 @@
       "blended": 1.225,
       "input": 0.7,
       "output": 2.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct"
@@ -5653,6 +6006,7 @@
       "blended": 2.625,
       "input": 0.7,
       "output": 8.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning"
@@ -5669,6 +6023,7 @@
       "blended": 0.747,
       "input": 0.23,
       "output": 2.3,
+      "task": 0.0806,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning"
@@ -5685,6 +6040,7 @@
       "blended": 0.403,
       "input": 0.23,
       "output": 0.92,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507"
@@ -5701,6 +6057,7 @@
       "blended": 0.35,
       "input": 0.2,
       "output": 0.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-30b-a3b-instruct"
@@ -5717,6 +6074,7 @@
       "blended": 0.75,
       "input": 0.2,
       "output": 2.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-30b-a3b-instruct-reasoning"
@@ -5733,6 +6091,7 @@
       "blended": 0.75,
       "input": 0.2,
       "output": 2.4,
+      "task": 0.0766,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-30b-a3b-2507-reasoning"
@@ -5749,6 +6108,7 @@
       "blended": 0.35,
       "input": 0.2,
       "output": 0.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-30b-a3b-2507"
@@ -5765,6 +6125,7 @@
       "blended": 0.28,
       "input": 0.16,
       "output": 0.64,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-32b-instruct"
@@ -5781,6 +6142,7 @@
       "blended": 0.28,
       "input": 0.16,
       "output": 0.64,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-32b-instruct-reasoning"
@@ -5797,6 +6159,7 @@
       "blended": 0.31,
       "input": 0.18,
       "output": 0.7,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-8b-instruct"
@@ -5813,6 +6176,7 @@
       "blended": 0.66,
       "input": 0.18,
       "output": 2.1,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-8b-instruct-reasoning"
@@ -5829,6 +6193,7 @@
       "blended": 0.9,
       "input": 0.45,
       "output": 2.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-coder-30b-a3b-instruct"
@@ -5845,6 +6210,7 @@
       "blended": 3,
       "input": 1.5,
       "output": 7.5,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-coder-480b-a35b-instruct"
@@ -5861,6 +6227,7 @@
       "blended": 0.563,
       "input": 0.35,
       "output": 1.2,
+      "task": 0.5518,
       "tps": 135,
       "ttft": 0.89,
       "url": "https://artificialanalysis.ai/models/qwen3-coder-next"
@@ -5877,6 +6244,7 @@
       "blended": 2.4,
       "input": 1.2,
       "output": 6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-max"
@@ -5893,6 +6261,7 @@
       "blended": 2.4,
       "input": 1.2,
       "output": 6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-max-preview"
@@ -5909,6 +6278,7 @@
       "blended": 2.4,
       "input": 1.2,
       "output": 6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-max-thinking-preview"
@@ -5925,6 +6295,7 @@
       "blended": 0.412,
       "input": 0.15,
       "output": 1.2,
+      "task": null,
       "tps": 195,
       "ttft": 1.27,
       "url": "https://artificialanalysis.ai/models/qwen3-next-80b-a3b-reasoning"
@@ -5941,6 +6312,7 @@
       "blended": 0.412,
       "input": 0.15,
       "output": 1.2,
+      "task": null,
       "tps": 182,
       "ttft": 1.07,
       "url": "https://artificialanalysis.ai/models/qwen3-next-80b-a3b-instruct"
@@ -5957,6 +6329,7 @@
       "blended": 0.43,
       "input": 0.25,
       "output": 0.97,
+      "task": null,
       "tps": 111,
       "ttft": 0.95,
       "url": "https://artificialanalysis.ai/models/qwen3-omni-30b-a3b-reasoning"
@@ -5973,6 +6346,7 @@
       "blended": 0.43,
       "input": 0.25,
       "output": 0.97,
+      "task": null,
       "tps": 109,
       "ttft": 0.89,
       "url": "https://artificialanalysis.ai/models/qwen3-omni-30b-a3b-instruct"
@@ -5989,6 +6363,7 @@
       "blended": 1.3,
       "input": 0.4,
       "output": 4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-235b-a22b-reasoning"
@@ -6005,6 +6380,7 @@
       "blended": 0.7,
       "input": 0.4,
       "output": 1.6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-235b-a22b-instruct"
@@ -6021,6 +6397,7 @@
       "blended": 0.75,
       "input": 0.2,
       "output": 2.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-30b-a3b-reasoning"
@@ -6037,6 +6414,7 @@
       "blended": 0.35,
       "input": 0.2,
       "output": 0.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-30b-a3b-instruct"
@@ -6053,6 +6431,7 @@
       "blended": 0.28,
       "input": 0.16,
       "output": 0.64,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-32b-reasoning"
@@ -6069,6 +6448,7 @@
       "blended": 0.28,
       "input": 0.16,
       "output": 0.64,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-32b-instruct"
@@ -6085,6 +6465,7 @@
       "blended": 0.66,
       "input": 0.18,
       "output": 2.1,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-8b-reasoning"
@@ -6101,6 +6482,7 @@
       "blended": 0.31,
       "input": 0.18,
       "output": 0.7,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-vl-8b-instruct"
@@ -6117,6 +6499,7 @@
       "blended": 1.1,
       "input": 0.4,
       "output": 3.2,
+      "task": null,
       "tps": 149,
       "ttft": 1,
       "url": "https://artificialanalysis.ai/models/qwen3-5-122b-a10b-non-reasoning"
@@ -6133,6 +6516,7 @@
       "blended": 1.1,
       "input": 0.4,
       "output": 3.2,
+      "task": 0.3247,
       "tps": 133,
       "ttft": 1.05,
       "url": "https://artificialanalysis.ai/models/qwen3-5-122b-a10b"
@@ -6149,6 +6533,7 @@
       "blended": 0.825,
       "input": 0.3,
       "output": 2.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-5-27b-non-reasoning"
@@ -6165,6 +6550,7 @@
       "blended": 0.825,
       "input": 0.3,
       "output": 2.4,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-5-27b"
@@ -6181,6 +6567,7 @@
       "blended": 0.688,
       "input": 0.25,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-5-35b-a3b-non-reasoning"
@@ -6197,6 +6584,7 @@
       "blended": 0.688,
       "input": 0.25,
       "output": 2,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-5-35b-a3b"
@@ -6213,6 +6601,7 @@
       "blended": 1.35,
       "input": 0.6,
       "output": 3.6,
+      "task": null,
       "tps": 86,
       "ttft": 1.69,
       "url": "https://artificialanalysis.ai/models/qwen3-5-397b-a17b-non-reasoning"
@@ -6229,6 +6618,7 @@
       "blended": 1.35,
       "input": 0.6,
       "output": 3.6,
+      "task": 0.4746,
       "tps": 89,
       "ttft": 1.66,
       "url": "https://artificialanalysis.ai/models/qwen3-5-397b-a17b"
@@ -6245,6 +6635,7 @@
       "blended": 0.06,
       "input": 0.03,
       "output": 0.15,
+      "task": null,
       "tps": 26,
       "ttft": 0.49,
       "url": "https://artificialanalysis.ai/models/qwen3-5-4b-non-reasoning"
@@ -6261,6 +6652,7 @@
       "blended": 0.06,
       "input": 0.03,
       "output": 0.15,
+      "task": null,
       "tps": 27,
       "ttft": 0.47,
       "url": "https://artificialanalysis.ai/models/qwen3-5-4b"
@@ -6277,6 +6669,7 @@
       "blended": 0.19,
       "input": 0.17,
       "output": 0.25,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-5-9b-non-reasoning"
@@ -6293,6 +6686,7 @@
       "blended": 0.151,
       "input": 0.135,
       "output": 0.2,
+      "task": 0.2126,
       "tps": 31,
       "ttft": 1.2,
       "url": "https://artificialanalysis.ai/models/qwen3-5-9b"
@@ -6309,6 +6703,7 @@
       "blended": 0.275,
       "input": 0.1,
       "output": 0.8,
+      "task": null,
       "tps": 226,
       "ttft": 0.96,
       "url": "https://artificialanalysis.ai/models/qwen3-5-omni-flash"
@@ -6325,6 +6720,7 @@
       "blended": 1.5,
       "input": 0.4,
       "output": 4.8,
+      "task": null,
       "tps": 78,
       "ttft": 1.29,
       "url": "https://artificialanalysis.ai/models/qwen3-5-omni-plus"
@@ -6341,6 +6737,7 @@
       "blended": 1.35,
       "input": 0.6,
       "output": 3.6,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-6-27b-non-reasoning"
@@ -6357,6 +6754,7 @@
       "blended": 1.35,
       "input": 0.6,
       "output": 3.6,
+      "task": 0.6212,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-6-27b"
@@ -6373,6 +6771,7 @@
       "blended": 0.844,
       "input": 0.375,
       "output": 2.25,
+      "task": null,
       "tps": 140,
       "ttft": 1.12,
       "url": "https://artificialanalysis.ai/models/qwen3-6-35b-a3b-non-reasoning"
@@ -6389,6 +6788,7 @@
       "blended": 0.844,
       "input": 0.375,
       "output": 2.25,
+      "task": 0.4751,
       "tps": 139,
       "ttft": 1.2,
       "url": "https://artificialanalysis.ai/models/qwen3-6-35b-a3b"
@@ -6405,6 +6805,7 @@
       "blended": 2.925,
       "input": 1.3,
       "output": 7.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-6-max"
@@ -6421,6 +6822,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-6-plus"
@@ -6437,6 +6839,7 @@
       "blended": 3.75,
       "input": 2.5,
       "output": 7.5,
+      "task": 1.1473,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-7-max"
@@ -6453,6 +6856,7 @@
       "blended": 0.7,
       "input": 0.4,
       "output": 1.6,
+      "task": 0.217,
       "tps": 57,
       "ttft": 1.59,
       "url": "https://artificialanalysis.ai/models/qwen3-7-plus"
@@ -6469,6 +6873,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 2.1559,
       "tps": 38,
       "ttft": 2.01,
       "url": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b"
@@ -6485,6 +6890,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": 1.0482,
       "tps": 51,
       "ttft": 1.24,
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b-low"
@@ -6501,6 +6907,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": 1.1331,
       "tps": 48,
       "ttft": 1.21,
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b-medium"
@@ -6517,6 +6924,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": 2.4878,
       "tps": 51,
       "ttft": 1.23,
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b-non-reasoning"
@@ -6533,6 +6941,7 @@
       "blended": 1.125,
       "input": 0.5,
       "output": 3,
+      "task": 1.0073,
       "tps": 46,
       "ttft": 1.24,
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b"
@@ -6549,6 +6958,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 2.67,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwen3-8-max-0803"
@@ -6565,6 +6975,7 @@
       "blended": 3,
       "input": 2,
       "output": 6,
+      "task": 5.4085,
       "tps": 38,
       "ttft": 1.91,
       "url": "https://artificialanalysis.ai/models/qwen3-8-max"
@@ -6581,6 +6992,7 @@
       "blended": 0.23,
       "input": 0.15,
       "output": 0.47,
+      "task": 0.3722,
       "tps": 53,
       "ttft": 1.57,
       "url": "https://artificialanalysis.ai/models/qwen3-8-flash-next"
@@ -6597,6 +7009,7 @@
       "blended": 0.745,
       "input": 0.66,
       "output": 1,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/qwq-32b"
@@ -6613,6 +7026,7 @@
       "blended": 0.35,
       "input": 0.2,
       "output": 0.8,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/reka-flash"
@@ -6629,6 +7043,7 @@
       "blended": 0.35,
       "input": 0.2,
       "output": 0.8,
+      "task": null,
       "tps": 96,
       "ttft": 0.8,
       "url": "https://artificialanalysis.ai/models/reka-flash-3"
@@ -6645,6 +7060,7 @@
       "blended": 0.85,
       "input": 0.3,
       "output": 2.5,
+      "task": 0.2872,
       "tps": 116,
       "ttft": 2.3,
       "url": "https://artificialanalysis.ai/models/ring-2-6-1t"
@@ -6661,6 +7077,7 @@
       "blended": 0.247,
       "input": 0.14,
       "output": 0.57,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/ring-flash-2-0"
@@ -6677,6 +7094,7 @@
       "blended": 0.074,
       "input": 0.042,
       "output": 0.17,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/sarvam-105b"
@@ -6693,6 +7111,7 @@
       "blended": 0.047,
       "input": 0.026,
       "output": 0.11,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/sarvam-30b"
@@ -6709,6 +7128,7 @@
       "blended": 0.3,
       "input": 0.21,
       "output": 0.57,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/seed-oss-36b-instruct"
@@ -6725,6 +7145,7 @@
       "blended": 0.15,
       "input": 0.15,
       "output": 0.15,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/solar-mini"
@@ -6741,6 +7162,7 @@
       "blended": 0.262,
       "input": 0.15,
       "output": 0.6,
+      "task": 0.0794,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/solar-pro-3"
@@ -6757,6 +7179,7 @@
       "blended": 0.525,
       "input": 0.3,
       "output": 1.2,
+      "task": null,
       "tps": 93,
       "ttft": 1.35,
       "url": "https://artificialanalysis.ai/models/solar-pro4"
@@ -6773,6 +7196,7 @@
       "blended": 0.15,
       "input": 0.1,
       "output": 0.3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/step-3-5-flash-0202"
@@ -6789,6 +7213,7 @@
       "blended": 0.15,
       "input": 0.1,
       "output": 0.3,
+      "task": null,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/step-3-5-flash"
@@ -6805,6 +7230,7 @@
       "blended": 0.438,
       "input": 0.2,
       "output": 1.15,
+      "task": null,
       "tps": 200,
       "ttft": 1.42,
       "url": "https://artificialanalysis.ai/models/step-3-7-flash"
@@ -6821,6 +7247,7 @@
       "blended": 1.425,
       "input": 1,
       "output": 2.7,
+      "task": 0.7175,
       "tps": 84,
       "ttft": 1.94,
       "url": "https://artificialanalysis.ai/models/step-5"
@@ -6837,6 +7264,7 @@
       "blended": 0.388,
       "input": 0.25,
       "output": 0.8,
+      "task": 0.1188,
       "tps": 342,
       "ttft": 1.2,
       "url": "https://artificialanalysis.ai/models/trinity-large-thinking"

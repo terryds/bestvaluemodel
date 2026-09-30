@@ -1,5 +1,163 @@
 [
   {
+    "date": "2026-09-30",
+    "added": [
+      {
+        "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "index": 20.4,
+        "blended": 1.98
+      },
+      {
+        "name": "GPT-6.1 Sol (high)",
+        "creator": "OpenAI",
+        "index": 50.2,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.1 Sol (low)",
+        "creator": "OpenAI",
+        "index": 42.1,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.1 Sol (max)",
+        "creator": "OpenAI",
+        "index": 51.8,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.1 Sol (medium)",
+        "creator": "OpenAI",
+        "index": 47.8,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.1 Sol (xhigh)",
+        "creator": "OpenAI",
+        "index": 51,
+        "blended": 4
+      }
+    ],
+    "removed": [
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 35.8,
+        "blended": 4
+      }
+    ],
+    "changed": [
+      {
+        "name": "DeepSeek V3 0324",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.927,
+            "to": 0.405
+          },
+          {
+            "field": "input",
+            "from": 0.845,
+            "to": 0.24
+          },
+          {
+            "field": "output",
+            "from": 1.175,
+            "to": 0.9
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1053,
+            "to": 0.0202
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V3.1 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.848,
+            "to": 0.84
+          },
+          {
+            "field": "input",
+            "from": 0.57,
+            "to": 0.56
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V3.1 (Reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.865,
+            "to": 0.855
+          },
+          {
+            "field": "input",
+            "from": 0.59,
+            "to": 0.58
+          },
+          {
+            "field": "output",
+            "from": 1.69,
+            "to": 1.68
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Flash 0420 (Reasoning, High Effort)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "index",
+            "from": 26,
+            "to": 24.4
+          }
+        ]
+      },
+      {
+        "name": "Inkling Small",
+        "creator": "Thinking Machines",
+        "fields": [
+          {
+            "field": "index",
+            "from": 27.8,
+            "to": 25.7
+          }
+        ]
+      },
+      {
+        "name": "Kimi K3 (low)",
+        "creator": "Kimi",
+        "fields": [
+          {
+            "field": "index",
+            "from": 34.5,
+            "to": 30.1
+          }
+        ]
+      },
+      {
+        "name": "Ling 3.0 Flash",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 24.9,
+            "to": 20.1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "added": [
       {

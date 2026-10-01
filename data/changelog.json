@@ -1,5 +1,244 @@
 [
   {
+    "date": "2026-10-01",
+    "added": [
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "index": 52.6,
+        "blended": 4
+      },
+      {
+        "name": "Solar Mini 4",
+        "creator": "Upstage",
+        "index": 24.1,
+        "blended": 0.175
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 7.6026,
+            "to": 7.6206
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 32.1,
+            "to": 32.9
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0291,
+            "to": 0.029
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 20.9,
+            "to": 21.5
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 37.3,
+            "to": 38.1
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0679,
+            "to": 0.0677
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (Medium)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 29.5,
+            "to": 29.9
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0176,
+            "to": 0.0175
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (Non-reasoning)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 18.3,
+            "to": 18.5
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0115,
+            "to": 0.0113
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (Xhigh)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 33.9,
+            "to": 34.6
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0421,
+            "to": 0.0422
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 42.8,
+            "to": 42.4
+          },
+          {
+            "field": "cost/task",
+            "from": 0.3753,
+            "to": 0.3728
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 33.9,
+            "to": 34.2
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1326,
+            "to": 0.1328
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 47.5,
+            "to": 47.6
+          },
+          {
+            "field": "cost/task",
+            "from": 1.0494,
+            "to": 1.0447
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Medium)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2472,
+            "to": 0.2473
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Non-reasoning)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 28.1,
+            "to": 28.5
+          },
+          {
+            "field": "cost/task",
+            "from": 0.3334,
+            "to": 0.3337
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Xhigh)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 44.1,
+            "to": 44.2
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5236,
+            "to": 0.5208
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Lightning",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.108,
+            "to": 0.095
+          },
+          {
+            "field": "input",
+            "from": 0.07,
+            "to": 0.06
+          },
+          {
+            "field": "output",
+            "from": 0.22,
+            "to": 0.2
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1004,
+            "to": 0.0931
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "added": [
       {

@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-10-02",
+    "added": [
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 35.9,
+        "blended": 4
+      },
+      {
+        "name": "Grok 4.7 (Low)",
+        "creator": "SpaceXAI",
+        "index": 42.2,
+        "blended": 3
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 46.7,
+            "to": 46.8
+          },
+          {
+            "field": "cost/task",
+            "from": 1.0798,
+            "to": 1.1225
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 7.6206,
+            "to": 7.6668
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 40.7,
+            "to": 40.8
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5862,
+            "to": 0.5894
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.7426,
+            "to": 2.7462
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "added": [
       {

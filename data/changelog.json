@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-10-03",
+    "added": [
+      {
+        "name": "Ling 3.1 Flash",
+        "creator": "InclusionAI",
+        "index": 41.1,
+        "blended": 0.45
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.98,
+            "to": 1.427
+          },
+          {
+            "field": "input",
+            "from": 1.32,
+            "to": 0.91
+          },
+          {
+            "field": "output",
+            "from": 3.96,
+            "to": 2.98
+          },
+          {
+            "field": "cost/task",
+            "from": 0.4774,
+            "to": 0.3297
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.0677,
+            "to": 0.0678
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.6-Flash",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.0622,
+            "to": 0.0623
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "added": [
       {

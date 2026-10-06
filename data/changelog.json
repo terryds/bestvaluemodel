@@ -1,5 +1,186 @@
 [
   {
+    "date": "2026-10-06",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "DeepSeek V3 0324",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.0202,
+            "to": 0.0211
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.427,
+            "to": 1.98
+          },
+          {
+            "field": "input",
+            "from": 0.91,
+            "to": 1.32
+          },
+          {
+            "field": "output",
+            "from": 2.98,
+            "to": 3.96
+          },
+          {
+            "field": "cost/task",
+            "from": 0.3297,
+            "to": 0.4774
+          }
+        ]
+      },
+      {
+        "name": "Gemini 2.5 Pro",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2317,
+            "to": 0.3303
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.1 Flash-Lite",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.0394,
+            "to": 0.0602
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.1 Pro Preview",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.6747,
+            "to": 1.2986
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.5 Flash (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.5625,
+            "to": 3.6937
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.5 Flash-Lite",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.1235,
+            "to": 0.1927
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.6 Flash (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.9288,
+            "to": 1.6005
+          }
+        ]
+      },
+      {
+        "name": "Gemma 4 31B (Non-reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.205,
+            "to": 0.212
+          },
+          {
+            "field": "input",
+            "from": 0.14,
+            "to": 0.15
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.5 (High)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.0365,
+            "to": 0.8807
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.6 (High)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.8589,
+            "to": 1.4848
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.6 (Low)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.4753,
+            "to": 0.3758
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.6 (Medium)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.4963,
+            "to": 1.1438
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.6 (Xhigh)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.3237,
+            "to": 1.7523
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-03",
     "added": [
       {

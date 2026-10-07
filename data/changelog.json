@@ -1,5 +1,130 @@
 [
   {
+    "date": "2026-10-07",
+    "added": [
+      {
+        "name": "Mistral Large 4 Preview",
+        "creator": "Mistral",
+        "index": 38.4,
+        "blended": 2.065
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "DeepSeek V4 Flash 0420 (High)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.143,
+            "to": 0.168
+          },
+          {
+            "field": "input",
+            "from": 0.112,
+            "to": 0.13
+          },
+          {
+            "field": "output",
+            "from": 0.238,
+            "to": 0.28
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1271,
+            "to": 0.1231
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Flash 0420 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "input",
+            "from": 0.092,
+            "to": 0.094
+          },
+          {
+            "field": "output",
+            "from": 0.191,
+            "to": 0.188
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.4774,
+            "to": 0.4553
+          }
+        ]
+      },
+      {
+        "name": "Gemma 4 31B (Non-reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.212,
+            "to": 0.224
+          },
+          {
+            "field": "input",
+            "from": 0.15,
+            "to": 0.165
+          }
+        ]
+      },
+      {
+        "name": "Llama 4 Maverick",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.422,
+            "to": 0.405
+          },
+          {
+            "field": "input",
+            "from": 0.26,
+            "to": 0.25
+          },
+          {
+            "field": "output",
+            "from": 0.91,
+            "to": 0.87
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.42,
+            "to": 0.45
+          },
+          {
+            "field": "input",
+            "from": 0.195,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 1.095,
+            "to": 0.9
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-06",
     "added": [],
     "removed": [],

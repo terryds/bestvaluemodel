@@ -1,5 +1,109 @@
 [
   {
+    "date": "2026-10-08",
+    "added": [
+      {
+        "name": "Claude Haiku 5.5 (High)",
+        "creator": "Anthropic",
+        "index": 37.8,
+        "blended": 0.2
+      },
+      {
+        "name": "Claude Haiku 5.5 (Low)",
+        "creator": "Anthropic",
+        "index": 29.4,
+        "blended": 0.2
+      },
+      {
+        "name": "Claude Haiku 5.5 (Max)",
+        "creator": "Anthropic",
+        "index": 43.4,
+        "blended": 0.2
+      },
+      {
+        "name": "Claude Haiku 5.5 (Medium)",
+        "creator": "Anthropic",
+        "index": 34.5,
+        "blended": 0.2
+      },
+      {
+        "name": "Claude Haiku 5.5 (Xhigh)",
+        "creator": "Anthropic",
+        "index": 41.2,
+        "blended": 0.2
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Claude Sonnet 5.5 (High, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.1225,
+            "to": 0.8844
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Low, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.417,
+            "to": 0.3452
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 7.6668,
+            "to": 5.4609
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Medium, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.5894,
+            "to": 0.4833
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.7462,
+            "to": 2.012
+          }
+        ]
+      },
+      {
+        "name": "Step 5 Preview",
+        "creator": "StepFun",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.7175,
+            "to": 1.0264
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "added": [
       {

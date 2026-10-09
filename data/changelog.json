@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-10-09",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Claude Haiku 5.5 (Low)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 29.4,
+            "to": 29.5
+          }
+        ]
+      },
+      {
+        "name": "Granite 4.2 30B",
+        "creator": "IBM",
+        "fields": [
+          {
+            "field": "index",
+            "from": 14.8,
+            "to": 12.7
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-08",
     "added": [
       {

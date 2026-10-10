@@ -1,5 +1,252 @@
 [
   {
+    "date": "2026-10-10",
+    "added": [],
+    "removed": [
+      {
+        "name": "QwQ 32B",
+        "creator": "Alibaba",
+        "index": 9.5,
+        "blended": 0.745
+      }
+    ],
+    "changed": [
+      {
+        "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.4553,
+            "to": 0.3555
+          }
+        ]
+      },
+      {
+        "name": "Gemma 4 26B A4B (Reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.168,
+            "to": 0.175
+          },
+          {
+            "field": "output",
+            "from": 0.37,
+            "to": 0.4
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-120b (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.261,
+            "to": 0.26
+          },
+          {
+            "field": "output",
+            "from": 0.595,
+            "to": 0.59
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1074,
+            "to": 0.1073
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-120b (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.249,
+            "to": 0.237
+          },
+          {
+            "field": "output",
+            "from": 0.545,
+            "to": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Grok 3",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 8,
+            "to": 6
+          },
+          {
+            "field": "input",
+            "from": 4,
+            "to": 3
+          },
+          {
+            "field": "output",
+            "from": 20,
+            "to": 15
+          }
+        ]
+      },
+      {
+        "name": "Ling 3.1 Flash",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.9857,
+            "to": 1.0016
+          }
+        ]
+      },
+      {
+        "name": "Llama 3.1 Instruct 8B",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.028,
+            "to": 0.043
+          },
+          {
+            "field": "input",
+            "from": 0.02,
+            "to": 0.035
+          },
+          {
+            "field": "output",
+            "from": 0.05,
+            "to": 0.065
+          }
+        ]
+      },
+      {
+        "name": "Llama 4 Scout",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.313,
+            "to": 0.3
+          },
+          {
+            "field": "input",
+            "from": 0.19,
+            "to": 0.18
+          },
+          {
+            "field": "output",
+            "from": 0.68,
+            "to": 0.66
+          }
+        ]
+      },
+      {
+        "name": "LongCat 2.0",
+        "creator": "LongCat",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.525,
+            "to": 1.3
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.75
+          },
+          {
+            "field": "output",
+            "from": 1.2,
+            "to": 2.95
+          },
+          {
+            "field": "cost/task",
+            "from": 0.059,
+            "to": 0.1462
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.6-Flash",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.0623,
+            "to": 0.0624
+          }
+        ]
+      },
+      {
+        "name": "Mistral Small 3.1",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.125,
+            "to": 0.094
+          },
+          {
+            "field": "input",
+            "from": 0.11,
+            "to": 0.08
+          },
+          {
+            "field": "output",
+            "from": 0.17,
+            "to": 0.135
+          },
+          {
+            "field": "cost/task",
+            "from": 0.035,
+            "to": 0.0255
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 Coder Next",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.563,
+            "to": 0.675
+          },
+          {
+            "field": "input",
+            "from": 0.35,
+            "to": 0.5
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5518,
+            "to": 0.7805
+          }
+        ]
+      },
+      {
+        "name": "Solar Mini 4",
+        "creator": "Upstage",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.3634,
+            "to": 0.3656
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "added": [],
     "removed": [],

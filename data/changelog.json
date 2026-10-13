@@ -1,5 +1,207 @@
 [
   {
+    "date": "2026-10-13",
+    "added": [
+      {
+        "name": "Muse Wonder (Max)",
+        "creator": "Meta",
+        "index": 52.4,
+        "blended": 8
+      },
+      {
+        "name": "Phi-4 Mini Instruct",
+        "creator": "Microsoft",
+        "index": 6.3,
+        "blended": 0.131
+      },
+      {
+        "name": "Phi-4 Multimodal Instruct",
+        "creator": "Microsoft",
+        "index": 5.8,
+        "blended": 0.14
+      }
+    ],
+    "removed": [
+      {
+        "name": "Ling-3.0-flash-VL",
+        "creator": "InclusionAI",
+        "index": 24.6,
+        "blended": 0.111
+      }
+    ],
+    "changed": [
+      {
+        "name": "GLM-5.3-Flash",
+        "creator": "Z AI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2533,
+            "to": 0.2836
+          }
+        ]
+      },
+      {
+        "name": "Mistral Large 4 Preview",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.1318,
+            "to": 1.1341
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (High)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.85,
+            "to": 0.935
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.33
+          },
+          {
+            "field": "output",
+            "from": 2.5,
+            "to": 2.75
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (Low)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.85,
+            "to": 0.935
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.33
+          },
+          {
+            "field": "output",
+            "from": 2.5,
+            "to": 2.75
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (Medium)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.85,
+            "to": 0.935
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.33
+          },
+          {
+            "field": "output",
+            "from": 2.5,
+            "to": 2.75
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (Non-reasoning)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.85,
+            "to": 0.935
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.33
+          },
+          {
+            "field": "output",
+            "from": 2.5,
+            "to": 2.75
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Pro Preview (Low)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 3.438,
+            "to": 3.781
+          },
+          {
+            "field": "input",
+            "from": 1.25,
+            "to": 1.375
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 11
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Pro Preview (Medium)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 3.438,
+            "to": 3.781
+          },
+          {
+            "field": "input",
+            "from": 1.25,
+            "to": 1.375
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 11
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Pro Preview (Non-reasoning)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 3.438,
+            "to": 3.781
+          },
+          {
+            "field": "input",
+            "from": 1.25,
+            "to": 1.375
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "added": [],
     "removed": [

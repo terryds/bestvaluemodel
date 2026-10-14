@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-10-14",
+    "added": [
+      {
+        "name": "Agnes 2.5 Pro Beta",
+        "creator": "Sapiens AI",
+        "index": 35.2,
+        "blended": 0.15
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Muse Glimmer (High)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.581,
+            "to": 0.525
+          },
+          {
+            "field": "input",
+            "from": 0.325,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 1.35,
+            "to": 1.2
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0567,
+            "to": 0.0535
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 27B (Xhigh)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.0073,
+            "to": 1.0075
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-13",
     "added": [
       {

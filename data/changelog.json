@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-10-15",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Ling 3.1 Flash",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.0016,
+            "to": 0.9996
+          }
+        ]
+      },
+      {
+        "name": "Llama 4 Maverick",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "index",
+            "from": 10,
+            "to": 9.3
+          }
+        ]
+      },
+      {
+        "name": "Llama 4 Scout",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "index",
+            "from": 8.1,
+            "to": 6.5
+          }
+        ]
+      },
+      {
+        "name": "Mercury 2",
+        "creator": "Inception",
+        "fields": [
+          {
+            "field": "index",
+            "from": 13.8,
+            "to": 10.8
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.5",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "index",
+            "from": 25.2,
+            "to": 21.8
+          }
+        ]
+      },
+      {
+        "name": "Mistral Small 3.2",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "index",
+            "from": 8.2,
+            "to": 7
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 14B (Reasoning)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "index",
+            "from": 8.2,
+            "to": 6.4
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 32B (Reasoning)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "index",
+            "from": 8.6,
+            "to": 7.2
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 2.4T A95B",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.1559,
+            "to": 2.1552
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-14",
     "added": [
       {

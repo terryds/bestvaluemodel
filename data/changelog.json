@@ -1,5 +1,185 @@
 [
   {
+    "date": "2026-10-16",
+    "added": [
+      {
+        "name": "Muse Spark Open (Xhigh)",
+        "creator": "Meta",
+        "index": 38.9,
+        "blended": 2
+      },
+      {
+        "name": "Nemotron 3.5 Super VL",
+        "creator": "NVIDIA",
+        "index": 26.5,
+        "blended": 0.294
+      },
+      {
+        "name": "Solar Pro 4",
+        "creator": "Upstage",
+        "index": 26.6,
+        "blended": 0.525
+      }
+    ],
+    "removed": [
+      {
+        "name": "Solar Pro 4",
+        "creator": "Upstage",
+        "index": 28.2,
+        "blended": 0.525
+      }
+    ],
+    "changed": [
+      {
+        "name": "Nova 2.0 Lite (High)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.935,
+            "to": 0.85
+          },
+          {
+            "field": "input",
+            "from": 0.33,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 2.75,
+            "to": 2.5
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (Low)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.935,
+            "to": 0.85
+          },
+          {
+            "field": "input",
+            "from": 0.33,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 2.75,
+            "to": 2.5
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (Medium)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.935,
+            "to": 0.85
+          },
+          {
+            "field": "input",
+            "from": 0.33,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 2.75,
+            "to": 2.5
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Lite (Non-reasoning)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.935,
+            "to": 0.85
+          },
+          {
+            "field": "input",
+            "from": 0.33,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 2.75,
+            "to": 2.5
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Pro Preview (Low)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 3.781,
+            "to": 3.438
+          },
+          {
+            "field": "input",
+            "from": 1.375,
+            "to": 1.25
+          },
+          {
+            "field": "output",
+            "from": 11,
+            "to": 10
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Pro Preview (Medium)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 3.781,
+            "to": 3.438
+          },
+          {
+            "field": "input",
+            "from": 1.375,
+            "to": 1.25
+          },
+          {
+            "field": "output",
+            "from": 11,
+            "to": 10
+          }
+        ]
+      },
+      {
+        "name": "Nova 2.0 Pro Preview (Non-reasoning)",
+        "creator": "Amazon",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 3.781,
+            "to": 3.438
+          },
+          {
+            "field": "input",
+            "from": 1.375,
+            "to": 1.25
+          },
+          {
+            "field": "output",
+            "from": 11,
+            "to": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "added": [],
     "removed": [],

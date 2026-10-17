@@ -150,10 +150,19 @@
   table.budget td.ru b { color: var(--ink); font-weight: 500; }
 
   /* changelog */
-  .log { list-style: none; margin: 0; padding: 0; font-size: 14px; }
-  .log li { padding: 12px 0; border-bottom: 1px solid var(--grid); line-height: 1.6; }
-  .log li:last-child { border-bottom: 0; }
-  .log .d { color: var(--ink-3); font-variant-numeric: tabular-nums; margin-right: 12px; }
+  .log { margin: 0; padding: 0; font-size: 14px; }
+  .log details { border-bottom: 1px solid var(--grid); }
+  .log details:last-child { border-bottom: 0; }
+  .log summary { display: flex; align-items: baseline; gap: 12px; padding: 12px 0; cursor: pointer; list-style: none; line-height: 1.5; user-select: none; }
+  .log summary::-webkit-details-marker { display: none; }
+  .log summary::before { content: "▸"; color: var(--ink-3); font-size: 12px; flex: none; width: 10px; transition: transform .15s; }
+  .log details[open] > summary::before { transform: rotate(90deg); }
+  .log summary:hover .d { color: var(--ink); }
+  .log .d { color: var(--ink-3); font-variant-numeric: tabular-nums; flex: none; }
+  .log .sum { color: var(--ink-2); }
+  .log .sum b { color: var(--ink); font-weight: 600; }
+  .log .body { padding: 0 0 14px 22px; line-height: 1.6; }
+  .log .empty { padding: 12px 0; }
   .up { color: var(--good); font-weight: 600; }
   .down { color: var(--bad); font-weight: 600; }
   .pill { display: inline-block; font-size: 11.5px; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent-ink); margin-right: 6px; font-weight: 500; }
@@ -235,7 +244,7 @@
 <div class="card">
   <h2>What changed</h2>
   <p class="cap">Diff between consecutive daily fetches: new models, removed models, and re-scored or re-priced ones.</p>
-  <ul class="log" id="log"></ul>
+  <div class="log" id="log"></div>
 </div>
 
 <div class="card">
@@ -569,17 +578,27 @@
     return parts;
   }
   function log() {
-    const ul = $("log"); ul.replaceChildren();
+    const root = $("log"); root.replaceChildren();
     const entries = changelog.filter((e) => e.added?.length || e.removed?.length || e.changed?.length).slice(0, 12);
-    if (!entries.length) { ul.appendChild(h("li", "empty", snapshot.source === "seed" ? "No fetches yet. Once the workflow runs with an API key, changes between days appear here." : "No changes recorded yet.")); return; }
-    entries.forEach((e) => {
-      const li = h("li"); li.appendChild(h("span", "d", e.date));
+    if (!entries.length) { root.appendChild(h("div", "empty", snapshot.source === "seed" ? "No fetches yet. Once the workflow runs with an API key, changes between days appear here." : "No changes recorded yet.")); return; }
+    entries.forEach((e, idx) => {
+      const added = e.added || [], removed = e.removed || [], changed = e.changed || [];
+      const det = h("details"); if (idx === 0) det.open = true;
+      const sm = h("summary"); sm.appendChild(h("span", "d", e.date));
+      const sum = h("span", "sum");
+      const rescored = changed.filter((c) => c.fields.some((f) => f.field === "index")).length;
+      const repriced = changed.filter((c) => c.fields.some((f) => f.field !== "index")).length;
+      const counts = [[added.length, "new"], [removed.length, "removed"], [rescored, "re-scored"], [repriced, "re-priced"]].filter(([n]) => n);
+      counts.forEach(([n, label], i) => { if (i) sum.append(" · "); sum.append(h("b", null, String(n)), " " + label); });
+      sm.appendChild(sum); det.appendChild(sm);
+      const body = h("div", "body");
       const bits = [];
-      (e.added || []).forEach((m) => { const s = h("span"); s.append(h("span", "pill", "new"), document.createTextNode(`${m.name} (${num(m.index, 1)} at ${money(m.blended)})`)); bits.push(s); });
-      (e.removed || []).forEach((m) => { const s = h("span"); s.append(h("span", "pill", "removed"), document.createTextNode(m.name)); bits.push(s); });
-      (e.changed || []).forEach((c) => { const s = h("span"); s.append(document.createTextNode(c.name + ": ")); fmtChange(c).forEach((p, i) => { if (i) s.append(", "); s.appendChild(p); }); bits.push(s); });
-      bits.forEach((b, i) => { if (i) li.append(" · "); li.appendChild(b); });
-      ul.appendChild(li);
+      added.forEach((m) => { const s = h("span"); s.append(h("span", "pill", "new"), document.createTextNode(`${m.name} (${num(m.index, 1)} at ${money(m.blended)})`)); bits.push(s); });
+      removed.forEach((m) => { const s = h("span"); s.append(h("span", "pill", "removed"), document.createTextNode(m.name)); bits.push(s); });
+      changed.forEach((c) => { const s = h("span"); s.append(document.createTextNode(c.name + ": ")); fmtChange(c).forEach((p, i) => { if (i) s.append(", "); s.appendChild(p); }); bits.push(s); });
+      bits.forEach((b, i) => { if (i) body.append(" · "); body.appendChild(b); });
+      det.appendChild(body);
+      root.appendChild(det);
     });
   }
 

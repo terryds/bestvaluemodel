@@ -1,5 +1,306 @@
 [
   {
+    "date": "2026-10-17",
+    "added": [
+      {
+        "name": "Beam 1.0",
+        "creator": "Reflection",
+        "index": 30.3,
+        "blended": 1.05
+      }
+    ],
+    "removed": [
+      {
+        "name": "Apertus 70B Instruct",
+        "creator": "Swiss AI Initiative",
+        "index": 5.1,
+        "blended": 1.345
+      },
+      {
+        "name": "ERNIE 4.5 300B A47B",
+        "creator": "Baidu",
+        "index": 7.5,
+        "blended": 0.485
+      },
+      {
+        "name": "Granite 4.0 H Small",
+        "creator": "IBM",
+        "index": 6,
+        "blended": 0.107
+      },
+      {
+        "name": "KAT Coder Pro V2",
+        "creator": "KwaiKAT",
+        "index": 21.7,
+        "blended": 0.525
+      },
+      {
+        "name": "Nova 2.0 Omni (Low)",
+        "creator": "Amazon",
+        "index": 11.1,
+        "blended": 0.85
+      },
+      {
+        "name": "Nova 2.0 Omni (Medium)",
+        "creator": "Amazon",
+        "index": 13.6,
+        "blended": 0.85
+      },
+      {
+        "name": "Nova 2.0 Omni (Non-reasoning)",
+        "creator": "Amazon",
+        "index": 8.2,
+        "blended": 0.85
+      },
+      {
+        "name": "Olmo 3 7B Instruct",
+        "creator": "Allen Institute for AI",
+        "index": 5.2,
+        "blended": 0.125
+      },
+      {
+        "name": "Ring-flash-2.0",
+        "creator": "InclusionAI",
+        "index": 7.2,
+        "blended": 0.247
+      },
+      {
+        "name": "Sarvam 30B (High)",
+        "creator": "Sarvam",
+        "index": 6.6,
+        "blended": 0.047
+      }
+    ],
+    "changed": [
+      {
+        "name": "Gemma 4 26B A4B (Reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.175,
+            "to": 0.168
+          },
+          {
+            "field": "output",
+            "from": 0.4,
+            "to": 0.37
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-120b (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.26,
+            "to": 0.242
+          },
+          {
+            "field": "input",
+            "from": 0.15,
+            "to": 0.125
+          },
+          {
+            "field": "output",
+            "from": 0.59,
+            "to": 0.595
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1073,
+            "to": 0.0922
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-120b (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.237,
+            "to": 0.223
+          },
+          {
+            "field": "input",
+            "from": 0.15,
+            "to": 0.1
+          },
+          {
+            "field": "output",
+            "from": 0.5,
+            "to": 0.59
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-20b (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.098,
+            "to": 0.097
+          },
+          {
+            "field": "input",
+            "from": 0.07,
+            "to": 0.058
+          },
+          {
+            "field": "output",
+            "from": 0.18,
+            "to": 0.215
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0125,
+            "to": 0.0115
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-20b (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.106,
+            "to": 0.115
+          },
+          {
+            "field": "output",
+            "from": 0.215,
+            "to": 0.25
+          }
+        ]
+      },
+      {
+        "name": "Llama 4 Maverick",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.405,
+            "to": 0.417
+          },
+          {
+            "field": "output",
+            "from": 0.87,
+            "to": 0.92
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0382,
+            "to": 0.0383
+          }
+        ]
+      },
+      {
+        "name": "Muse Glimmer (High)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.0535,
+            "to": 0.0576
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.075,
+            "to": 1.125
+          },
+          {
+            "field": "output",
+            "from": 2.5,
+            "to": 2.7
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5976,
+            "to": 0.577
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Super VL",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.294,
+            "to": 0.313
+          },
+          {
+            "field": "input",
+            "from": 0.2,
+            "to": 0.225
+          },
+          {
+            "field": "cost/task",
+            "from": 0.2508,
+            "to": 0.1882
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 Coder Next",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.675,
+            "to": 0.482
+          },
+          {
+            "field": "input",
+            "from": 0.5,
+            "to": 0.31
+          },
+          {
+            "field": "output",
+            "from": 1.2,
+            "to": 1
+          },
+          {
+            "field": "cost/task",
+            "from": 0.7805,
+            "to": 0.4697
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 Next 80B A3B Instruct",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.388,
+            "to": 0.381
+          },
+          {
+            "field": "input",
+            "from": 0.15,
+            "to": 0.125
+          },
+          {
+            "field": "output",
+            "from": 1.1,
+            "to": 1.15
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "added": [
       {

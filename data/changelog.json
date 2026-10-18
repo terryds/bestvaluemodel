@@ -1,5 +1,71 @@
 [
   {
+    "date": "2026-10-18",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "DeepSeek V4 Flash 0731 (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.66,
+            "to": 0.175
+          },
+          {
+            "field": "input",
+            "from": 0.44,
+            "to": 0.14
+          },
+          {
+            "field": "output",
+            "from": 1.32,
+            "to": 0.28
+          },
+          {
+            "field": "cost/task",
+            "from": 0.2196,
+            "to": 0.1744
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Flash Vision (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.3144,
+            "to": 1.0379
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2652,
+            "to": 0.4857
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.1467,
+            "to": 0.2212
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "added": [
       {

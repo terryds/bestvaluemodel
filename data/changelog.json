@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-19",
+    "added": [
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (Max)",
+        "creator": "DeepSeek",
+        "index": 45.1,
+        "blended": 0.525
+      },
+      {
+        "name": "MiniMax-M3.1-Flash",
+        "creator": "MiniMax",
+        "index": 42.4,
+        "blended": 0.262
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-10-18",
     "added": [],
     "removed": [],

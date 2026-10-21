@@ -1,5 +1,274 @@
 [
   {
+    "date": "2026-10-21",
+    "added": [],
+    "removed": [
+      {
+        "name": "Gemini 3.7 Flash (Low)",
+        "creator": "Google",
+        "index": 36.9,
+        "blended": 1.5
+      },
+      {
+        "name": "Gemini 3.7 Flash (Medium)",
+        "creator": "Google",
+        "index": 39.6,
+        "blended": 1.5
+      },
+      {
+        "name": "Qwen3 30B A3B 2507 (Reasoning)",
+        "creator": "Alibaba",
+        "index": 9.8,
+        "blended": 0.595
+      }
+    ],
+    "changed": [
+      {
+        "name": "DeepSeek V4.1 Flash (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.4857,
+            "to": 0.5711
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2212,
+            "to": 0.2488
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.7 Flash (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.5,
+            "to": 0.75
+          },
+          {
+            "field": "input",
+            "from": 0.75,
+            "to": 0.375
+          },
+          {
+            "field": "output",
+            "from": 3.75,
+            "to": 1.875
+          }
+        ]
+      },
+      {
+        "name": "Gemma 4 26B A4B (Non-reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.198,
+            "to": 0.186
+          },
+          {
+            "field": "input",
+            "from": 0.13,
+            "to": 0.115
+          }
+        ]
+      },
+      {
+        "name": "Gemma 4 26B A4B (Reasoning)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.168,
+            "to": 0.16
+          },
+          {
+            "field": "output",
+            "from": 0.37,
+            "to": 0.34
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-120b (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.242,
+            "to": 0.262
+          },
+          {
+            "field": "input",
+            "from": 0.125,
+            "to": 0.15
+          },
+          {
+            "field": "output",
+            "from": 0.595,
+            "to": 0.6
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0922,
+            "to": 0.1076
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-120b (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.223,
+            "to": 0.242
+          },
+          {
+            "field": "input",
+            "from": 0.1,
+            "to": 0.125
+          },
+          {
+            "field": "output",
+            "from": 0.59,
+            "to": 0.595
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-20b (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.097,
+            "to": 0.115
+          },
+          {
+            "field": "input",
+            "from": 0.058,
+            "to": 0.07
+          },
+          {
+            "field": "output",
+            "from": 0.215,
+            "to": 0.25
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0115,
+            "to": 0.0137
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-20b (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.115,
+            "to": 0.121
+          },
+          {
+            "field": "output",
+            "from": 0.25,
+            "to": 0.275
+          }
+        ]
+      },
+      {
+        "name": "Kimi K2.5 (Reasoning)",
+        "creator": "Kimi",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.137,
+            "to": 1.2
+          },
+          {
+            "field": "output",
+            "from": 2.75,
+            "to": 3
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.45,
+            "to": 0.641
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.4
+          },
+          {
+            "field": "output",
+            "from": 0.9,
+            "to": 1.365
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 30B A3B 2507 Instruct",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.25,
+            "to": 0.15
+          },
+          {
+            "field": "input",
+            "from": 0.2,
+            "to": 0.1
+          },
+          {
+            "field": "output",
+            "from": 0.4,
+            "to": 0.3
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 Coder 30B A3B Instruct",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.3,
+            "to": 0.334
+          },
+          {
+            "field": "input",
+            "from": 0.15,
+            "to": 0.19
+          },
+          {
+            "field": "output",
+            "from": 0.748,
+            "to": 0.765
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "added": [],
     "removed": [],

@@ -1,5 +1,117 @@
 [
   {
+    "date": "2026-10-22",
+    "added": [
+      {
+        "name": "Ling 3.1 Flash 1019",
+        "creator": "InclusionAI",
+        "index": 43.9,
+        "blended": 0.45
+      }
+    ],
+    "removed": [
+      {
+        "name": "Solar Pro 4",
+        "creator": "Upstage",
+        "index": 26.6,
+        "blended": 0.525
+      }
+    ],
+    "changed": [
+      {
+        "name": "Beam 1.0",
+        "creator": "Reflection",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.05,
+            "to": 0.6
+          },
+          {
+            "field": "input",
+            "from": 0.7,
+            "to": 0.4
+          },
+          {
+            "field": "output",
+            "from": 2.1,
+            "to": 1.2
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5657,
+            "to": 0.2262
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4 Flash 0731 (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.1744,
+            "to": 0.1487
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.5711,
+            "to": 0.4003
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.7 Flash (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.75,
+            "to": 1.5
+          },
+          {
+            "field": "input",
+            "from": 0.375,
+            "to": 0.75
+          },
+          {
+            "field": "output",
+            "from": 1.875,
+            "to": 3.75
+          }
+        ]
+      },
+      {
+        "name": "Ling 3.1 Flash",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.9996,
+            "to": 1.0018
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.577,
+            "to": 0.4697
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "added": [],
     "removed": [

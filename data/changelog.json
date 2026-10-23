@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-10-23",
+    "added": [
+      {
+        "name": "Solar Pro 4",
+        "creator": "Upstage",
+        "index": 26.6,
+        "blended": 0.525
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Mistral Large 4 Preview",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.1341,
+            "to": 1.1344
+          }
+        ]
+      },
+      {
+        "name": "Muse Spark Open (Xhigh)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.8435,
+            "to": 0.8442
+          }
+        ]
+      },
+      {
+        "name": "Muse Wonder (Max)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 4.5157,
+            "to": 4.54
+          }
+        ]
+      },
+      {
+        "name": "Quasar 438B (Max, Based on GLM-5.2)",
+        "creator": "Multiverse Computing",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.9,
+            "to": 0.165
+          },
+          {
+            "field": "input",
+            "from": 0.6,
+            "to": 0.11
+          },
+          {
+            "field": "output",
+            "from": 1.8,
+            "to": 0.33
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "added": [
       {

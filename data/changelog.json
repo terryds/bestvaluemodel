@@ -1,5 +1,332 @@
 [
   {
+    "date": "2026-10-24",
+    "added": [
+      {
+        "name": "Kimi K3.1 Pro",
+        "creator": "Kimi",
+        "index": 55.1,
+        "blended": 4
+      }
+    ],
+    "removed": [
+      {
+        "name": "Ling-3.0-flash-Fin",
+        "creator": "InclusionAI",
+        "index": 22.6,
+        "blended": 0.111
+      },
+      {
+        "name": "Qwen2.5 Turbo",
+        "creator": "Alibaba",
+        "index": 6.4,
+        "blended": 0.088
+      },
+      {
+        "name": "Qwen3 Next 80B A3B (Reasoning)",
+        "creator": "Alibaba",
+        "index": 11.2,
+        "blended": 0.412
+      }
+    ],
+    "changed": [
+      {
+        "name": "DeepSeek R1 0528 (May '25)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.763,
+            "to": 2.075
+          },
+          {
+            "field": "input",
+            "from": 1.35,
+            "to": 1.85
+          },
+          {
+            "field": "output",
+            "from": 3,
+            "to": 2.75
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.525,
+            "to": 0.521
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.295
+          },
+          {
+            "field": "cost/task",
+            "from": 0.4003,
+            "to": 0.4802
+          }
+        ]
+      },
+      {
+        "name": "GLM-4.7 (Non-reasoning)",
+        "creator": "Z AI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1,
+            "to": 0.919
+          },
+          {
+            "field": "input",
+            "from": 0.6,
+            "to": 0.525
+          },
+          {
+            "field": "output",
+            "from": 2.2,
+            "to": 2.1
+          }
+        ]
+      },
+      {
+        "name": "GLM-4.7 (Reasoning)",
+        "creator": "Z AI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1,
+            "to": 0.919
+          },
+          {
+            "field": "input",
+            "from": 0.6,
+            "to": 0.525
+          },
+          {
+            "field": "output",
+            "from": 2.2,
+            "to": 2.1
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-20b (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.115,
+            "to": 0.092
+          },
+          {
+            "field": "input",
+            "from": 0.07,
+            "to": 0.05
+          },
+          {
+            "field": "output",
+            "from": 0.25,
+            "to": 0.22
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0137,
+            "to": 0.0106
+          }
+        ]
+      },
+      {
+        "name": "gpt-oss-20b (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.121,
+            "to": 0.128
+          },
+          {
+            "field": "output",
+            "from": 0.275,
+            "to": 0.3
+          }
+        ]
+      },
+      {
+        "name": "Ling 3.1 Flash",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.0018,
+            "to": 1.0106
+          }
+        ]
+      },
+      {
+        "name": "Llama 3.3 Instruct 70B",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.712,
+            "to": 0.67
+          },
+          {
+            "field": "input",
+            "from": 0.71,
+            "to": 0.655
+          },
+          {
+            "field": "output",
+            "from": 0.72,
+            "to": 0.715
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.5",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.175,
+            "to": 0.166
+          },
+          {
+            "field": "input",
+            "from": 0.14,
+            "to": 0.133
+          },
+          {
+            "field": "output",
+            "from": 0.28,
+            "to": 0.266
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0191,
+            "to": 0.038
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.5-Pro (Non-reasoning)",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.544,
+            "to": 0.585
+          },
+          {
+            "field": "input",
+            "from": 0.435,
+            "to": 0.39
+          },
+          {
+            "field": "output",
+            "from": 0.87,
+            "to": 1.17
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.5-Pro (Reasoning)",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.544,
+            "to": 0.564
+          },
+          {
+            "field": "input",
+            "from": 0.435,
+            "to": 0.412
+          },
+          {
+            "field": "output",
+            "from": 0.87,
+            "to": 1.02
+          },
+          {
+            "field": "cost/task",
+            "from": 0.0541,
+            "to": 0.1397
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 235B A22B 2507 Instruct",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.385,
+            "to": 0.368
+          },
+          {
+            "field": "input",
+            "from": 0.22,
+            "to": 0.21
+          },
+          {
+            "field": "output",
+            "from": 0.88,
+            "to": 0.84
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 Coder 480B A35B Instruct",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.675,
+            "to": 0.631
+          },
+          {
+            "field": "input",
+            "from": 0.3,
+            "to": 0.375
+          },
+          {
+            "field": "output",
+            "from": 1.8,
+            "to": 1.4
+          }
+        ]
+      },
+      {
+        "name": "Qwen3 Next 80B A3B Instruct",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.381,
+            "to": 0.35
+          },
+          {
+            "field": "input",
+            "from": 0.125,
+            "to": 0.1
+          },
+          {
+            "field": "output",
+            "from": 1.15,
+            "to": 1.1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "added": [
       {

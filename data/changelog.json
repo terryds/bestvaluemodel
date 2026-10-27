@@ -2,6 +2,31 @@
   {
     "date": "2026-10-27",
     "added": [],
+    "removed": [
+      {
+        "name": "Granite 4.2 30B",
+        "creator": "IBM",
+        "index": 12.7,
+        "blended": 0.282
+      }
+    ],
+    "changed": [
+      {
+        "name": "Ling 3.1 Flash 1019",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.4886,
+            "to": 1.4887
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "added": [],
     "removed": [],
     "changed": [
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T17:59:28.558Z",
+  "fetched_at": "2026-10-27T22:12:38.151Z",
   "source": "artificialanalysis.ai",
   "endpoint": "https://artificialanalysis.ai/api/v2/data/llms/models",
   "cost_endpoint": "https://artificialanalysis.ai/api/v2/language/models/free",
@@ -8,7 +8,7 @@
     "prompt_length": 1000
   },
   "attribution": "Data from Artificial Analysis (https://artificialanalysis.ai/). Attribution required.",
-  "count": 429,
+  "count": 427,
   "models": [
     {
       "id": "f3a0e101-086f-44b3-a1b2-d23498f9716b",
@@ -41,7 +41,7 @@
       "output": 0.2,
       "task": null,
       "tps": 159,
-      "ttft": 2.53,
+      "ttft": 2.46,
       "url": "https://artificialanalysis.ai/models/apertus-8b-instruct"
     },
     {
@@ -74,8 +74,8 @@
       "input": 0.4,
       "output": 1.2,
       "task": 0.1234,
-      "tps": 393,
-      "ttft": 0.49,
+      "tps": 397,
+      "ttft": 0.48,
       "url": "https://artificialanalysis.ai/models/reflection-beam"
     },
     {
@@ -346,7 +346,7 @@
       "input": 10,
       "output": 50,
       "task": 3.9125,
-      "tps": 52,
+      "tps": 54,
       "ttft": 2.18,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high"
     },
@@ -363,8 +363,8 @@
       "input": 10,
       "output": 50,
       "task": 2.371,
-      "tps": 52,
-      "ttft": 0.83,
+      "tps": 54,
+      "ttft": 0.68,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low"
     },
     {
@@ -397,7 +397,7 @@
       "input": 10,
       "output": 50,
       "task": 2.9826,
-      "tps": 50,
+      "tps": 55,
       "ttft": 2.11,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium"
     },
@@ -414,7 +414,7 @@
       "input": 10,
       "output": 50,
       "task": 5.9783,
-      "tps": 56,
+      "tps": 59,
       "ttft": 35.22,
       "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh"
     },
@@ -431,8 +431,8 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.0794,
-      "tps": 171,
-      "ttft": 14.15,
+      "tps": 176,
+      "ttft": 13.71,
       "url": "https://artificialanalysis.ai/models/claude-haiku-5-5-high"
     },
     {
@@ -448,8 +448,8 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.0245,
-      "tps": 158,
-      "ttft": 4.47,
+      "tps": 161,
+      "ttft": 4.87,
       "url": "https://artificialanalysis.ai/models/claude-haiku-5-5-low"
     },
     {
@@ -482,8 +482,8 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.047,
-      "tps": 153,
-      "ttft": 6.6,
+      "tps": 164,
+      "ttft": 7.29,
       "url": "https://artificialanalysis.ai/models/claude-haiku-5-5-medium"
     },
     {
@@ -500,7 +500,7 @@
       "output": 0.5,
       "task": 0.1238,
       "tps": 184,
-      "ttft": 38.73,
+      "ttft": 36.57,
       "url": "https://artificialanalysis.ai/models/claude-haiku-5-5-xhigh"
     },
     {
@@ -720,7 +720,7 @@
       "input": 4,
       "output": 20,
       "task": 1.8225,
-      "tps": 74,
+      "tps": 77,
       "ttft": 13.04,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-high"
     },
@@ -737,8 +737,8 @@
       "input": 4,
       "output": 20,
       "task": 0.5512,
-      "tps": 74,
-      "ttft": 1.69,
+      "tps": 75,
+      "ttft": 2.13,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-low"
     },
     {
@@ -755,7 +755,7 @@
       "output": 20,
       "task": 5.982,
       "tps": 97,
-      "ttft": 508.05,
+      "ttft": 424.84,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
     },
     {
@@ -771,8 +771,8 @@
       "input": 4,
       "output": 20,
       "task": 1.336,
-      "tps": 79,
-      "ttft": 10.99,
+      "tps": 80,
+      "ttft": 10.7,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-medium"
     },
     {
@@ -788,8 +788,8 @@
       "input": 4,
       "output": 20,
       "task": 3.4591,
-      "tps": 77,
-      "ttft": 59.01,
+      "tps": 78,
+      "ttft": 55.63,
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh"
     },
     {
@@ -958,7 +958,7 @@
       "input": 2,
       "output": 10,
       "task": 0.8844,
-      "tps": 101,
+      "tps": 105,
       "ttft": 7.21,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-high"
     },
@@ -1009,8 +1009,8 @@
       "input": 2,
       "output": 10,
       "task": 0.4833,
-      "tps": 95,
-      "ttft": 1,
+      "tps": 98,
+      "ttft": 0.99,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-medium"
     },
     {
@@ -1026,7 +1026,7 @@
       "input": 2,
       "output": 10,
       "task": 2.012,
-      "tps": 98,
+      "tps": 101,
       "ttft": 12.36,
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-xhigh"
     },
@@ -1331,7 +1331,7 @@
       "blended": 0.175,
       "input": 0.14,
       "output": 0.28,
-      "task": 0.15,
+      "task": 0.1775,
       "tps": null,
       "ttft": null,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-flash"
@@ -1434,8 +1434,8 @@
       "input": 1.32,
       "output": 3.96,
       "task": 0.3555,
-      "tps": 94,
-      "ttft": 1.12,
+      "tps": 97,
+      "ttft": 1.16,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-pro-non-reasoning"
     },
     {
@@ -1485,7 +1485,7 @@
       "input": 0.3,
       "output": 1.2,
       "task": 0.262,
-      "tps": 159,
+      "tps": 162,
       "ttft": 0.88,
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
     },
@@ -1723,7 +1723,7 @@
       "input": 2,
       "output": 12,
       "task": 1.4354,
-      "tps": 132,
+      "tps": 136,
       "ttft": 16.61,
       "url": "https://artificialanalysis.ai/models/gemini-3-1-pro-preview"
     },
@@ -1791,8 +1791,8 @@
       "input": 0.3,
       "output": 2.5,
       "task": 0.1728,
-      "tps": 412,
-      "ttft": 5.8,
+      "tps": 413,
+      "ttft": 5.84,
       "url": "https://artificialanalysis.ai/models/gemini-3-5-flash-lite"
     },
     {
@@ -1842,8 +1842,8 @@
       "input": 0.75,
       "output": 3.75,
       "task": 3.485,
-      "tps": 132,
-      "ttft": 17.1,
+      "tps": 135,
+      "ttft": 16.28,
       "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
     },
     {
@@ -1893,7 +1893,7 @@
       "input": 2,
       "output": 10,
       "task": 1.62,
-      "tps": 80,
+      "tps": 82,
       "ttft": 36.02,
       "url": "https://artificialanalysis.ai/models/gemini-4-argon"
     },
@@ -1910,8 +1910,8 @@
       "input": 0.1,
       "output": 0.3,
       "task": null,
-      "tps": 144,
-      "ttft": 1.21,
+      "tps": 153,
+      "ttft": 1.22,
       "url": "https://artificialanalysis.ai/models/gemma-4-12b-non-reasoning"
     },
     {
@@ -1928,7 +1928,7 @@
       "output": 0.3,
       "task": null,
       "tps": 139,
-      "ttft": 1.18,
+      "ttft": 1.19,
       "url": "https://artificialanalysis.ai/models/gemma-4-12b"
     },
     {
@@ -1961,8 +1961,8 @@
       "input": 0.1,
       "output": 0.34,
       "task": null,
-      "tps": 95,
-      "ttft": 0.58,
+      "tps": 94,
+      "ttft": 0.57,
       "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b"
     },
     {
@@ -1979,7 +1979,7 @@
       "output": 0.4,
       "task": null,
       "tps": 56,
-      "ttft": 0.58,
+      "ttft": 0.57,
       "url": "https://artificialanalysis.ai/models/gemma-4-31b-non-reasoning"
     },
     {
@@ -1996,7 +1996,7 @@
       "output": 0.1,
       "task": null,
       "tps": 52,
-      "ttft": 0.43,
+      "ttft": 0.44,
       "url": "https://artificialanalysis.ai/models/gemma-4-e4b-non-reasoning"
     },
     {
@@ -2318,8 +2318,8 @@
       "input": 1.4,
       "output": 4.4,
       "task": 0.8522,
-      "tps": 69,
-      "ttft": 2.73,
+      "tps": 71,
+      "ttft": 2.67,
       "url": "https://artificialanalysis.ai/models/glm-5-3-low"
     },
     {
@@ -2335,8 +2335,8 @@
       "input": 1.4,
       "output": 4.4,
       "task": 2.0056,
-      "tps": 80,
-      "ttft": 2.43,
+      "tps": 82,
+      "ttft": 2.4,
       "url": "https://artificialanalysis.ai/models/glm-5-3"
     },
     {
@@ -2352,43 +2352,9 @@
       "input": 0.15,
       "output": 0.5,
       "task": 0.2836,
-      "tps": 75,
+      "tps": 78,
       "ttft": 2.39,
       "url": "https://artificialanalysis.ai/models/glm-5-3-flash"
-    },
-    {
-      "id": "037dec2f-51e8-4127-a1f1-85155dae7a1d",
-      "name": "GPT-3.5 Turbo",
-      "slug": "gpt-35-turbo",
-      "creator": "OpenAI",
-      "creator_slug": "openai",
-      "index": 5.5,
-      "coding": 10.7,
-      "math": null,
-      "blended": 0.75,
-      "input": 0.5,
-      "output": 1.5,
-      "task": null,
-      "tps": null,
-      "ttft": null,
-      "url": "https://artificialanalysis.ai/models/gpt-35-turbo"
-    },
-    {
-      "id": "6a7c0e25-1dcb-4b15-8495-a8536a9da051",
-      "name": "GPT-4",
-      "slug": "gpt-4",
-      "creator": "OpenAI",
-      "creator_slug": "openai",
-      "index": 6.7,
-      "coding": 13.1,
-      "math": null,
-      "blended": 37.5,
-      "input": 30,
-      "output": 60,
-      "task": null,
-      "tps": null,
-      "ttft": null,
-      "url": "https://artificialanalysis.ai/models/gpt-4"
     },
     {
       "id": "76aa6af5-fdc6-4739-a300-983f14e74a67",
@@ -2862,7 +2828,7 @@
       "input": 1.75,
       "output": 14,
       "task": null,
-      "tps": 97,
+      "tps": 94,
       "ttft": 36.59,
       "url": "https://artificialanalysis.ai/models/gpt-5-3-codex"
     },
@@ -3117,7 +3083,7 @@
       "input": 5,
       "output": 30,
       "task": 0.5689,
-      "tps": 157,
+      "tps": 160,
       "ttft": 0.78,
       "url": "https://artificialanalysis.ai/models/gpt-5-5-instant-06-26"
     },
@@ -3355,8 +3321,8 @@
       "input": 2,
       "output": 12,
       "task": 0.3379,
-      "tps": 105,
-      "ttft": 2.17,
+      "tps": 110,
+      "ttft": 2.23,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-high"
     },
     {
@@ -3372,8 +3338,8 @@
       "input": 2,
       "output": 12,
       "task": 0.1445,
-      "tps": 110,
-      "ttft": 1.33,
+      "tps": 112,
+      "ttft": 1.37,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-low"
     },
     {
@@ -3389,8 +3355,8 @@
       "input": 2,
       "output": 12,
       "task": 1.3987,
-      "tps": 125,
-      "ttft": 82.13,
+      "tps": 129,
+      "ttft": 96.81,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra"
     },
     {
@@ -3406,8 +3372,8 @@
       "input": 2,
       "output": 12,
       "task": 0.1834,
-      "tps": 107,
-      "ttft": 1.35,
+      "tps": 113,
+      "ttft": 1.56,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-medium"
     },
     {
@@ -3423,7 +3389,7 @@
       "input": 2,
       "output": 12,
       "task": 0.1397,
-      "tps": 108,
+      "tps": 109,
       "ttft": 0.79,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-non-reasoning"
     },
@@ -3440,8 +3406,8 @@
       "input": 2,
       "output": 12,
       "task": 0.6318,
-      "tps": 102,
-      "ttft": 6.98,
+      "tps": 103,
+      "ttft": 7.47,
       "url": "https://artificialanalysis.ai/models/gpt-5-6-terra-xhigh"
     },
     {
@@ -3457,7 +3423,7 @@
       "input": 10,
       "output": 50,
       "task": 1.7253,
-      "tps": 53,
+      "tps": 55,
       "ttft": 27.53,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-high"
     },
@@ -3474,8 +3440,8 @@
       "input": 10,
       "output": 50,
       "task": 0.8175,
-      "tps": 57,
-      "ttft": 1.58,
+      "tps": 58,
+      "ttft": 1.92,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-low"
     },
     {
@@ -3491,7 +3457,7 @@
       "input": 10,
       "output": 50,
       "task": 3.2575,
-      "tps": 64,
+      "tps": 68,
       "ttft": 173.19,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra"
     },
@@ -3508,7 +3474,7 @@
       "input": 10,
       "output": 50,
       "task": 1.5406,
-      "tps": 49,
+      "tps": 50,
       "ttft": 3.99,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-medium"
     },
@@ -3525,7 +3491,7 @@
       "input": 10,
       "output": 50,
       "task": 2.3088,
-      "tps": 59,
+      "tps": 63,
       "ttft": 69.05,
       "url": "https://artificialanalysis.ai/models/gpt-6-astra-xhigh"
     },
@@ -3542,8 +3508,8 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.029,
-      "tps": 120,
-      "ttft": 8.92,
+      "tps": 121,
+      "ttft": 8.22,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-high"
     },
     {
@@ -3559,7 +3525,7 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.0045,
-      "tps": 118,
+      "tps": 120,
       "ttft": 2.54,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-low"
     },
@@ -3576,8 +3542,8 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.0678,
-      "tps": 121,
-      "ttft": 81.21,
+      "tps": 118,
+      "ttft": 67.08,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna"
     },
     {
@@ -3610,7 +3576,7 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.0113,
-      "tps": 110,
+      "tps": 112,
       "ttft": 0.92,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-non-reasoning"
     },
@@ -3627,7 +3593,7 @@
       "input": 0.1,
       "output": 0.5,
       "task": 0.0422,
-      "tps": 121,
+      "tps": 119,
       "ttft": 18.24,
       "url": "https://artificialanalysis.ai/models/gpt-6-luna-xhigh"
     },
@@ -3746,8 +3712,8 @@
       "input": 2,
       "output": 10,
       "task": 0.3191,
-      "tps": 60,
-      "ttft": 24.24,
+      "tps": 63,
+      "ttft": 19.76,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-high"
     },
     {
@@ -3780,8 +3746,8 @@
       "input": 2,
       "output": 10,
       "task": 0.7242,
-      "tps": 67,
-      "ttft": 161.15,
+      "tps": 75,
+      "ttft": 150.07,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol"
     },
     {
@@ -3797,7 +3763,7 @@
       "input": 2,
       "output": 10,
       "task": 0.2137,
-      "tps": 56,
+      "tps": 59,
       "ttft": 4.05,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-medium"
     },
@@ -3814,7 +3780,7 @@
       "input": 2,
       "output": 10,
       "task": 0.3929,
-      "tps": 65,
+      "tps": 68,
       "ttft": 70,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol-xhigh"
     },
@@ -3832,7 +3798,7 @@
       "output": 5,
       "task": 0.1343,
       "tps": 91,
-      "ttft": 9.11,
+      "ttft": 5.72,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra-high"
     },
     {
@@ -3849,7 +3815,7 @@
       "output": 5,
       "task": 0.0546,
       "tps": 91,
-      "ttft": 1.73,
+      "ttft": 1.64,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra-low"
     },
     {
@@ -3866,7 +3832,7 @@
       "output": 5,
       "task": 0.4035,
       "tps": 91,
-      "ttft": 194.73,
+      "ttft": 169.21,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
     },
     {
@@ -3883,7 +3849,7 @@
       "output": 5,
       "task": 0.0953,
       "tps": 91,
-      "ttft": 1.74,
+      "ttft": 1.68,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra-medium"
     },
     {
@@ -3900,7 +3866,7 @@
       "output": 5,
       "task": 0.1069,
       "tps": 91,
-      "ttft": 0.94,
+      "ttft": 0.88,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra-non-reasoning"
     },
     {
@@ -3917,7 +3883,7 @@
       "output": 5,
       "task": 0.1937,
       "tps": 91,
-      "ttft": 24.3,
+      "ttft": 19.2,
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra-xhigh"
     },
     {
@@ -3933,8 +3899,8 @@
       "input": 0.15,
       "output": 0.6,
       "task": 0.1076,
-      "tps": 231,
-      "ttft": 0.48,
+      "tps": 229,
+      "ttft": 0.49,
       "url": "https://artificialanalysis.ai/models/gpt-oss-120b"
     },
     {
@@ -3950,7 +3916,7 @@
       "input": 0.125,
       "output": 0.595,
       "task": null,
-      "tps": 263,
+      "tps": 262,
       "ttft": 0.48,
       "url": "https://artificialanalysis.ai/models/gpt-oss-120b-low"
     },
@@ -3967,7 +3933,7 @@
       "input": 0.05,
       "output": 0.22,
       "task": 0.0106,
-      "tps": 185,
+      "tps": 179,
       "ttft": 0.48,
       "url": "https://artificialanalysis.ai/models/gpt-oss-20b"
     },
@@ -4018,7 +3984,7 @@
       "input": 0.03,
       "output": 0.12,
       "task": 0.006,
-      "tps": 48,
+      "tps": 49,
       "ttft": 0.39,
       "url": "https://artificialanalysis.ai/models/granite-4-2-3b"
     },
@@ -4035,7 +4001,7 @@
       "input": 0.06,
       "output": 0.25,
       "task": 0.0236,
-      "tps": 46,
+      "tps": 48,
       "ttft": 0.43,
       "url": "https://artificialanalysis.ai/models/granite-4-2-8b"
     },
@@ -4358,7 +4324,7 @@
       "input": 2,
       "output": 6,
       "task": 2.3638,
-      "tps": 84,
+      "tps": 86,
       "ttft": 12.51,
       "url": "https://artificialanalysis.ai/models/grok-4-7-high"
     },
@@ -4375,8 +4341,8 @@
       "input": 2,
       "output": 6,
       "task": 1.0294,
-      "tps": 78,
-      "ttft": 3.54,
+      "tps": 79,
+      "ttft": 4,
       "url": "https://artificialanalysis.ai/models/grok-4-7-low"
     },
     {
@@ -4392,7 +4358,7 @@
       "input": 2,
       "output": 6,
       "task": 3.2367,
-      "tps": 77,
+      "tps": 79,
       "ttft": 14.48,
       "url": "https://artificialanalysis.ai/models/grok-4-7"
     },
@@ -4461,7 +4427,7 @@
       "output": 3,
       "task": null,
       "tps": 41,
-      "ttft": 0.7,
+      "ttft": 0.69,
       "url": "https://artificialanalysis.ai/models/hermes-4-llama-3-1-405b-reasoning"
     },
     {
@@ -4528,8 +4494,8 @@
       "input": 1,
       "output": 4.05,
       "task": 0.5953,
-      "tps": 165,
-      "ttft": 2.11,
+      "tps": 166,
+      "ttft": 2.21,
       "url": "https://artificialanalysis.ai/models/inkling"
     },
     {
@@ -4545,8 +4511,8 @@
       "input": 0.3,
       "output": 1.2,
       "task": 0.0895,
-      "tps": 236,
-      "ttft": 2.01,
+      "tps": 238,
+      "ttft": 1.95,
       "url": "https://artificialanalysis.ai/models/inkling-small"
     },
     {
@@ -4715,8 +4681,8 @@
       "input": 0.95,
       "output": 4,
       "task": 0.5412,
-      "tps": 68,
-      "ttft": 1,
+      "tps": 70,
+      "ttft": 1.02,
       "url": "https://artificialanalysis.ai/models/kimi-k2-7-code"
     },
     {
@@ -4801,7 +4767,7 @@
       "output": 0.9,
       "task": 1.0106,
       "tps": 215,
-      "ttft": 1.12,
+      "ttft": 1.17,
       "url": "https://artificialanalysis.ai/models/ling-3-1-flash"
     },
     {
@@ -4953,8 +4919,8 @@
       "input": 0.345,
       "output": 0.345,
       "task": null,
-      "tps": 24,
-      "ttft": 0.56,
+      "tps": 25,
+      "ttft": 0.55,
       "url": "https://artificialanalysis.ai/models/llama-3-2-instruct-11b-vision"
     },
     {
@@ -4970,7 +4936,7 @@
       "input": 0.6,
       "output": 0.71,
       "task": null,
-      "tps": 96,
+      "tps": 97,
       "ttft": 0.66,
       "url": "https://artificialanalysis.ai/models/llama-3-3-instruct-70b"
     },
@@ -4987,7 +4953,7 @@
       "input": 0.25,
       "output": 0.92,
       "task": 0.0383,
-      "tps": 58,
+      "tps": 55,
       "ttft": 0.56,
       "url": "https://artificialanalysis.ai/models/llama-4-maverick"
     },
@@ -5004,8 +4970,8 @@
       "input": 0.18,
       "output": 0.66,
       "task": 0.1122,
-      "tps": 70,
-      "ttft": 0.68,
+      "tps": 69,
+      "ttft": 0.69,
       "url": "https://artificialanalysis.ai/models/llama-4-scout"
     },
     {
@@ -5021,8 +4987,8 @@
       "input": 0.75,
       "output": 2.95,
       "task": 0.1462,
-      "tps": 77,
-      "ttft": 1.84,
+      "tps": 79,
+      "ttft": 1.82,
       "url": "https://artificialanalysis.ai/models/longcat-2-0"
     },
     {
@@ -5072,8 +5038,8 @@
       "input": 0.25,
       "output": 0.75,
       "task": 0.0999,
-      "tps": 800,
-      "ttft": 2.58,
+      "tps": 830,
+      "ttft": 2.64,
       "url": "https://artificialanalysis.ai/models/mercury-2-5"
     },
     {
@@ -5157,7 +5123,7 @@
       "input": 0.14,
       "output": 0.28,
       "task": 0.0624,
-      "tps": 55,
+      "tps": 56,
       "ttft": 2.49,
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-flash"
     },
@@ -5174,7 +5140,7 @@
       "input": 0.435,
       "output": 0.87,
       "task": 0.1332,
-      "tps": 47,
+      "tps": 50,
       "ttft": 2.57,
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
     },
@@ -5276,8 +5242,8 @@
       "input": 0.3,
       "output": 1.2,
       "task": 0.5076,
-      "tps": 100,
-      "ttft": 0.83,
+      "tps": 99,
+      "ttft": 0.88,
       "url": "https://artificialanalysis.ai/models/minimax-m3"
     },
     {
@@ -5294,7 +5260,7 @@
       "output": 0.6,
       "task": 0.2201,
       "tps": 108,
-      "ttft": 0.89,
+      "ttft": 0.88,
       "url": "https://artificialanalysis.ai/models/minimax-m3-1-flash"
     },
     {
@@ -5310,7 +5276,7 @@
       "input": 0.2,
       "output": 0.2,
       "task": 0.0194,
-      "tps": 76,
+      "tps": 78,
       "ttft": 0.63,
       "url": "https://artificialanalysis.ai/models/ministral-3-14b"
     },
@@ -5327,8 +5293,8 @@
       "input": 0.1,
       "output": 0.1,
       "task": 0.0078,
-      "tps": 217,
-      "ttft": 0.47,
+      "tps": 220,
+      "ttft": 0.46,
       "url": "https://artificialanalysis.ai/models/ministral-3-3b"
     },
     {
@@ -5345,7 +5311,7 @@
       "output": 0.15,
       "task": 0.0111,
       "tps": 111,
-      "ttft": 0.49,
+      "ttft": 0.48,
       "url": "https://artificialanalysis.ai/models/ministral-3-8b"
     },
     {
@@ -5429,8 +5395,8 @@
       "input": 1.36,
       "output": 4.18,
       "task": 1.6059,
-      "tps": 113,
-      "ttft": 0.86,
+      "tps": 106,
+      "ttft": 0.82,
       "url": "https://artificialanalysis.ai/models/mistral-large-4"
     },
     {
@@ -5463,8 +5429,8 @@
       "input": 1.5,
       "output": 7.5,
       "task": 0.4286,
-      "tps": 165,
-      "ttft": 0.69,
+      "tps": 169,
+      "ttft": 0.77,
       "url": "https://artificialanalysis.ai/models/mistral-medium-3-5"
     },
     {
@@ -5531,7 +5497,7 @@
       "input": 0.15,
       "output": 0.6,
       "task": null,
-      "tps": 170,
+      "tps": 174,
       "ttft": 0.62,
       "url": "https://artificialanalysis.ai/models/mistral-small-4-non-reasoning"
     },
@@ -5548,8 +5514,8 @@
       "input": 0.15,
       "output": 0.6,
       "task": 0.0171,
-      "tps": 181,
-      "ttft": 0.63,
+      "tps": 182,
+      "ttft": 0.64,
       "url": "https://artificialanalysis.ai/models/mistral-small-4"
     },
     {
@@ -5582,7 +5548,7 @@
       "input": 0.3,
       "output": 1.2,
       "task": 0.0576,
-      "tps": 126,
+      "tps": 128,
       "ttft": 0.43,
       "url": "https://artificialanalysis.ai/models/muse-glimmer"
     },
@@ -5667,7 +5633,7 @@
       "input": 1.25,
       "output": 4.25,
       "task": 0.8443,
-      "tps": 225,
+      "tps": 226,
       "ttft": 0.47,
       "url": "https://artificialanalysis.ai/models/muse-spark-open"
     },
@@ -5684,7 +5650,7 @@
       "input": 4,
       "output": 20,
       "task": 3.2671,
-      "tps": 158,
+      "tps": 173,
       "ttft": 21.71,
       "url": "https://artificialanalysis.ai/models/muse-wonder"
     },
@@ -5752,8 +5718,8 @@
       "input": 0.06,
       "output": 0.2,
       "task": 0.0862,
-      "tps": 295,
-      "ttft": 0.43,
+      "tps": 294,
+      "ttft": 0.45,
       "url": "https://artificialanalysis.ai/models/nemotron-3-5-lightning"
     },
     {
@@ -5786,7 +5752,7 @@
       "input": 0.3,
       "output": 2.5,
       "task": null,
-      "tps": 207,
+      "tps": 208,
       "ttft": 14.92,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning"
     },
@@ -5804,7 +5770,7 @@
       "output": 2.5,
       "task": null,
       "tps": 215,
-      "ttft": 4.23,
+      "ttft": 4.25,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning-low"
     },
     {
@@ -5820,8 +5786,8 @@
       "input": 0.3,
       "output": 2.5,
       "task": null,
-      "tps": 213,
-      "ttft": 10.71,
+      "tps": 220,
+      "ttft": 10.32,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning-medium"
     },
     {
@@ -5837,8 +5803,8 @@
       "input": 0.3,
       "output": 2.5,
       "task": null,
-      "tps": 222,
-      "ttft": 0.86,
+      "tps": 227,
+      "ttft": 0.87,
       "url": "https://artificialanalysis.ai/models/nova-2-0-lite"
     },
     {
@@ -5854,7 +5820,7 @@
       "input": 1.25,
       "output": 10,
       "task": null,
-      "tps": 133,
+      "tps": 136,
       "ttft": 2.74,
       "url": "https://artificialanalysis.ai/models/nova-2-0-pro-reasoning-low"
     },
@@ -5871,7 +5837,7 @@
       "input": 1.25,
       "output": 10,
       "task": null,
-      "tps": 129,
+      "tps": 131,
       "ttft": 11.7,
       "url": "https://artificialanalysis.ai/models/nova-2-0-pro-reasoning-medium"
     },
@@ -5888,7 +5854,7 @@
       "input": 1.25,
       "output": 10,
       "task": null,
-      "tps": 139,
+      "tps": 140,
       "ttft": 0.62,
       "url": "https://artificialanalysis.ai/models/nova-2-0-pro"
     },
@@ -5922,8 +5888,8 @@
       "input": 0.035,
       "output": 0.14,
       "task": null,
-      "tps": 241,
-      "ttft": 0.52,
+      "tps": 253,
+      "ttft": 0.53,
       "url": "https://artificialanalysis.ai/models/nova-micro"
     },
     {
@@ -5973,7 +5939,7 @@
       "input": 0.05,
       "output": 0.2,
       "task": 0.0168,
-      "tps": 239,
+      "tps": 240,
       "ttft": 0.4,
       "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b-reasoning"
     },
@@ -6092,8 +6058,8 @@
       "input": 2,
       "output": 8,
       "task": null,
-      "tps": 150,
-      "ttft": 4.23,
+      "tps": 148,
+      "ttft": 4.35,
       "url": "https://artificialanalysis.ai/models/o3"
     },
     {
@@ -6178,7 +6144,7 @@
       "output": 0.5,
       "task": null,
       "tps": 44,
-      "ttft": 0.92,
+      "ttft": 0.94,
       "url": "https://artificialanalysis.ai/models/phi-4"
     },
     {
@@ -6195,7 +6161,7 @@
       "output": 0.3,
       "task": null,
       "tps": 47,
-      "ttft": 0.36,
+      "ttft": 0.35,
       "url": "https://artificialanalysis.ai/models/phi-4-mini"
     },
     {
@@ -6228,8 +6194,8 @@
       "input": 0.11,
       "output": 0.33,
       "task": 0.1481,
-      "tps": 156,
-      "ttft": 0.59,
+      "tps": 160,
+      "ttft": 0.58,
       "url": "https://artificialanalysis.ai/models/quasar-438b"
     },
     {
@@ -6483,7 +6449,7 @@
       "input": 0.1,
       "output": 1.1,
       "task": null,
-      "tps": 133,
+      "tps": 130,
       "ttft": 0.64,
       "url": "https://artificialanalysis.ai/models/qwen3-next-80b-a3b-instruct"
     },
@@ -6585,7 +6551,7 @@
       "input": 0.4,
       "output": 3.2,
       "task": null,
-      "tps": 146,
+      "tps": 147,
       "ttft": 1,
       "url": "https://artificialanalysis.ai/models/qwen3-5-122b-a10b-non-reasoning"
     },
@@ -6705,7 +6671,7 @@
       "output": 3.6,
       "task": 0.4746,
       "tps": 59,
-      "ttft": 1.66,
+      "ttft": 1.63,
       "url": "https://artificialanalysis.ai/models/qwen3-5-397b-a17b"
     },
     {
@@ -6721,8 +6687,8 @@
       "input": 0.03,
       "output": 0.15,
       "task": null,
-      "tps": 20,
-      "ttft": 0.56,
+      "tps": 18,
+      "ttft": 0.57,
       "url": "https://artificialanalysis.ai/models/qwen3-5-4b-non-reasoning"
     },
     {
@@ -6756,7 +6722,7 @@
       "output": 0.25,
       "task": null,
       "tps": 74,
-      "ttft": 0.55,
+      "ttft": 0.6,
       "url": "https://artificialanalysis.ai/models/qwen3-5-9b-non-reasoning"
     },
     {
@@ -6789,7 +6755,7 @@
       "input": 0.1,
       "output": 0.8,
       "task": null,
-      "tps": 233,
+      "tps": 234,
       "ttft": 0.96,
       "url": "https://artificialanalysis.ai/models/qwen3-5-omni-flash"
     },
@@ -6806,8 +6772,8 @@
       "input": 0.4,
       "output": 4.8,
       "task": null,
-      "tps": 117,
-      "ttft": 1.12,
+      "tps": 120,
+      "ttft": 1.14,
       "url": "https://artificialanalysis.ai/models/qwen3-5-omni-plus"
     },
     {
@@ -6857,7 +6823,7 @@
       "input": 0.375,
       "output": 2.25,
       "task": null,
-      "tps": 150,
+      "tps": 153,
       "ttft": 1.06,
       "url": "https://artificialanalysis.ai/models/qwen3-6-35b-a3b-non-reasoning"
     },
@@ -6874,8 +6840,8 @@
       "input": 0.375,
       "output": 2.25,
       "task": 0.4751,
-      "tps": 139,
-      "ttft": 1.08,
+      "tps": 142,
+      "ttft": 1.09,
       "url": "https://artificialanalysis.ai/models/qwen3-6-35b-a3b"
     },
     {
@@ -6925,7 +6891,7 @@
       "input": 0.4,
       "output": 1.6,
       "task": 0.217,
-      "tps": 55,
+      "tps": 56,
       "ttft": 1.87,
       "url": "https://artificialanalysis.ai/models/qwen3-7-plus"
     },
@@ -6942,8 +6908,8 @@
       "input": 2,
       "output": 6,
       "task": 2.1552,
-      "tps": 39,
-      "ttft": 2.12,
+      "tps": 40,
+      "ttft": 2.13,
       "url": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b"
     },
     {
@@ -6976,8 +6942,8 @@
       "input": 0.5,
       "output": 3,
       "task": 1.2709,
-      "tps": 45,
-      "ttft": 1.23,
+      "tps": 47,
+      "ttft": 1.22,
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b-medium"
     },
     {
@@ -7010,7 +6976,7 @@
       "input": 0.5,
       "output": 3,
       "task": 1.1464,
-      "tps": 39,
+      "tps": 38,
       "ttft": 1.22,
       "url": "https://artificialanalysis.ai/models/qwen3-8-27b"
     },
@@ -7180,7 +7146,7 @@
       "input": 0.1,
       "output": 0.4,
       "task": 0.5144,
-      "tps": 100,
+      "tps": 101,
       "ttft": 1.15,
       "url": "https://artificialanalysis.ai/models/solar-mini4"
     },
@@ -7282,8 +7248,8 @@
       "input": 1,
       "output": 2.7,
       "task": 1.0264,
-      "tps": 197,
-      "ttft": 0.8,
+      "tps": 193,
+      "ttft": 0.77,
       "url": "https://artificialanalysis.ai/models/step-5"
     },
     {
@@ -7299,8 +7265,8 @@
       "input": 0.25,
       "output": 0.8,
       "task": 0.1188,
-      "tps": 410,
-      "ttft": 1.07,
+      "tps": 415,
+      "ttft": 1.06,
       "url": "https://artificialanalysis.ai/models/trinity-large-thinking"
     }
   ]

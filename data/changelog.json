@@ -4,6 +4,37 @@
     "added": [],
     "removed": [
       {
+        "name": "GPT-3.5 Turbo",
+        "creator": "OpenAI",
+        "index": 5.5,
+        "blended": 0.75
+      },
+      {
+        "name": "GPT-4",
+        "creator": "OpenAI",
+        "index": 6.7,
+        "blended": 37.5
+      }
+    ],
+    "changed": [
+      {
+        "name": "DeepSeek V4 Flash 0731 (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.15,
+            "to": 0.1775
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "added": [],
+    "removed": [
+      {
         "name": "Granite 4.2 30B",
         "creator": "IBM",
         "index": 12.7,

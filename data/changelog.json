@@ -1,6 +1,46 @@
 [
   {
     "date": "2026-10-28",
+    "added": [
+      {
+        "name": "Gemini 4 Carbon (High)",
+        "creator": "Google",
+        "index": 59.4,
+        "blended": 8
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 4,
+            "to": 8
+          },
+          {
+            "field": "input",
+            "from": 2,
+            "to": 4
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 20
+          },
+          {
+            "field": "cost/task",
+            "from": 3.8413,
+            "to": 7.6827
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
     "added": [],
     "removed": [
       {

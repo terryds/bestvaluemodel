@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-10-29",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Claude Fable 5.1 (High, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 7.5608,
+            "to": 7.54
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.1 (Low, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 4.4867,
+            "to": 4.4711
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.1 (Max, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 13.0393,
+            "to": 12.994
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.1 (Medium, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 5.5805,
+            "to": 5.5643
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 10.8855,
+            "to": 10.8475
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "added": [
       {

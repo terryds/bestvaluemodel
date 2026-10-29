@@ -1,6 +1,88 @@
 [
   {
     "date": "2026-10-29",
+    "added": [
+      {
+        "name": "GLM-5.3-Flash",
+        "creator": "Z AI",
+        "index": 27.8,
+        "blended": 0.237
+      },
+      {
+        "name": "Kimi K3 (Low)",
+        "creator": "Kimi",
+        "index": 17.4,
+        "blended": 6
+      },
+      {
+        "name": "Mistral Large 4 (High)",
+        "creator": "Mistral",
+        "index": 26,
+        "blended": 1.05
+      },
+      {
+        "name": "Mistral Large 4 (Medium)",
+        "creator": "Mistral",
+        "index": 23.1,
+        "blended": 1.05
+      },
+      {
+        "name": "Mistral Small 4 (Reasoning)",
+        "creator": "Mistral",
+        "index": 4.3,
+        "blended": 0.262
+      },
+      {
+        "name": "Nemotron 3.5 Lightning",
+        "creator": "NVIDIA",
+        "index": 5.5,
+        "blended": 0.095
+      },
+      {
+        "name": "Qwen3.8 27B (Low)",
+        "creator": "Alibaba",
+        "index": 15.7,
+        "blended": 1.125
+      },
+      {
+        "name": "Qwen3.8 27B (Medium)",
+        "creator": "Alibaba",
+        "index": 17.5,
+        "blended": 1.125
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Mistral Large 4 Preview",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 2.065,
+            "to": 1.05
+          },
+          {
+            "field": "input",
+            "from": 1.36,
+            "to": 0.7
+          },
+          {
+            "field": "output",
+            "from": 4.18,
+            "to": 2.1
+          },
+          {
+            "field": "cost/task",
+            "from": 5.537,
+            "to": 4.2089
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
     "added": [],
     "removed": [],
     "changed": [

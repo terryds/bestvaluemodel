@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-10-30",
+    "added": [
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "index": 18.5,
+        "blended": 0.787
+      },
+      {
+        "name": "Qwen3.8 27B (Non-reasoning)",
+        "creator": "Alibaba",
+        "index": 10,
+        "blended": 1.125
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Nemotron 3.5 Super VL",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.313,
+            "to": 0.275
+          },
+          {
+            "field": "input",
+            "from": 0.225,
+            "to": 0.2
+          },
+          {
+            "field": "output",
+            "from": 0.575,
+            "to": 0.5
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5565,
+            "to": 0.5382
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "added": [
       {

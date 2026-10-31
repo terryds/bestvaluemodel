@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-10-31",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.787,
+            "to": 0.525
+          },
+          {
+            "field": "input",
+            "from": 0.45,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 1.8,
+            "to": 1.2
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "added": [
       {

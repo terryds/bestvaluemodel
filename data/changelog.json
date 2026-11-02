@@ -3,6 +3,25 @@
     "date": "2026-11-02",
     "added": [
       {
+        "name": "Gemini 4 Carbon (Medium)",
+        "creator": "Google",
+        "index": 57.7,
+        "blended": 8
+      },
+      {
+        "name": "Granite 4.2 8B",
+        "creator": "IBM",
+        "index": 5.1,
+        "blended": 0.107
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "date": "2026-11-02",
+    "added": [
+      {
         "name": "DeepSeek V4.1 Flash 1017 (High)",
         "creator": "DeepSeek",
         "index": 28.5,

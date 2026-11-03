@@ -1,6 +1,29 @@
 [
   {
     "date": "2026-11-03",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Grok 4.7 (Xhigh)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 34.3,
+            "to": 35.3
+          },
+          {
+            "field": "cost/task",
+            "from": 7.5118,
+            "to": 7.7715
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
     "added": [
       {
         "name": "Gemini 4 Carbon (Low)",

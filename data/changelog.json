@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-04",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "GPT-5.6 Terra (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 32.2,
+            "to": 32.3
+          },
+          {
+            "field": "cost/task",
+            "from": 3.7341,
+            "to": 3.7349
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 44.1,
+            "to": 44.2
+          },
+          {
+            "field": "cost/task",
+            "from": 2.4657,
+            "to": 2.4658
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "added": [
       {

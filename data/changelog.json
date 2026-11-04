@@ -1,6 +1,49 @@
 [
   {
     "date": "2026-11-04",
+    "added": [
+      {
+        "name": "Claude 4.5 Haiku (Reasoning)",
+        "creator": "Anthropic",
+        "index": 7.4,
+        "blended": 2
+      },
+      {
+        "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+        "creator": "DeepSeek",
+        "index": 12.6,
+        "blended": 1.98
+      },
+      {
+        "name": "Gemini 3.1 Flash-Lite",
+        "creator": "Google",
+        "index": 6.2,
+        "blended": 0.563
+      },
+      {
+        "name": "GPT-5.6 Luna (Max)",
+        "creator": "OpenAI",
+        "index": 23.8,
+        "blended": 0.45
+      },
+      {
+        "name": "Grok 4.6 (Xhigh)",
+        "creator": "SpaceXAI",
+        "index": 31,
+        "blended": 3
+      },
+      {
+        "name": "Mistral Medium 3.5",
+        "creator": "Mistral",
+        "index": 4.6,
+        "blended": 3
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "date": "2026-11-04",
     "added": [],
     "removed": [],
     "changed": [

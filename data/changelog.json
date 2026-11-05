@@ -3,6 +3,19 @@
     "date": "2026-11-05",
     "added": [
       {
+        "name": "Tencent Hy4",
+        "creator": "Tencent",
+        "index": 34.6,
+        "blended": 1.251
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "date": "2026-11-05",
+    "added": [
+      {
         "name": "Claude Opus 5 (Max)",
         "creator": "Anthropic",
         "index": 44.2,

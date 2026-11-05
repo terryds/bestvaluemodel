@@ -1,16 +1,21 @@
 #!/usr/bin/env node
 /**
- * Pull the LLM leaderboard from the Artificial Analysis free API and write
- * a trimmed, stable snapshot to data/models.json. If the model data is
- * unchanged from the previous snapshot nothing is written, so a daily cron
- * only produces a commit when something actually moved.
+ * Pull the LLM leaderboard from the Artificial Analysis Data API (free tier)
+ * and write a trimmed, stable snapshot to data/models.json. If the model data
+ * is unchanged from the previous snapshot nothing is written, so the cron only
+ * produces a commit when something actually moved.
  *
- * Cost per Intelligence Index task comes from a second, paginated endpoint
- * and is merged in by model id.
+ * The free endpoint is paginated (200 per page) and already carries cost per
+ * Intelligence Index task, so a single pass gives us everything. It does not
+ * expose AA's blended price (Pro only); that is the plain 3:1 input:output
+ * blend, so it is computed here from the per-token prices, which matched AA's
+ * published figure to 3 dp across the whole legacy snapshot.
  *
  * Also maintains data/changelog.json: per-run diff of models added, removed,
  * or re-scored / re-priced.
  *
+ * Docs: https://artificialanalysis.ai/data-api/docs  (spec: /api/v2/openapi)
+ * Free tier is 100 requests per 24h; a run uses one request per page.
  * Attribution required by AA terms: https://artificialanalysis.ai/
  */
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -22,8 +27,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_DIR = path.join(ROOT, "data");
 const MODELS_PATH = path.join(DATA_DIR, "models.json");
 const CHANGELOG_PATH = path.join(DATA_DIR, "changelog.json");
-const ENDPOINT = "https://artificialanalysis.ai/api/v2/data/llms/models";
-const COST_ENDPOINT = "https://artificialanalysis.ai/api/v2/language/models/free"; // paginated; carries cost per Intelligence Index task
+const ENDPOINT = "https://artificialanalysis.ai/api/v2/language/models/free";
+const MAX_PAGES = 50;
 const CHANGELOG_MAX = 90;
 
 const apiKey = process.env.AA_API_KEY;
@@ -37,41 +42,45 @@ const round = (v, dp = 2) => (v == null || Number.isNaN(+v) ? null : Math.round(
 
 const headers = { "x-api-key": apiKey, accept: "application/json" };
 
-/** Map of model id -> weighted average USD cost to complete one Intelligence Index task. */
-async function fetchTaskCosts() {
-  const costs = new Map();
+/** Walk every page of the free endpoint. Returns the raw model objects plus the index version. */
+async function fetchAllModels() {
+  const data = [];
+  let indexVersion = null;
   for (let page = 1, more = true; more; page++) {
-    const res = await fetch(`${COST_ENDPOINT}?page=${page}`, { headers });
-    if (!res.ok) throw new Error(`AA API ${res.status} ${res.statusText} on ${COST_ENDPOINT} page ${page}`);
+    const res = await fetch(`${ENDPOINT}?page=${page}`, { headers });
+    if (!res.ok) {
+      const body = await res.text().catch(() => "");
+      throw new Error(`AA API ${res.status} ${res.statusText} on page ${page}: ${body.slice(0, 300)}`);
+    }
     const json = await res.json();
     if (!Array.isArray(json.data)) throw new Error("Unexpected response shape: no data[]");
-    for (const m of json.data) {
-      const c = positive(m.artificial_analysis_intelligence_index_cost?.cost_per_task?.total_cost);
-      if (c != null) costs.set(m.id, round(c, 4));
-    }
-    more = json.pagination?.has_more === true && page < 50;
+    data.push(...json.data);
+    indexVersion ??= json.intelligence_index_version ?? null;
+    more = json.pagination?.has_more === true && page < MAX_PAGES;
   }
-  return costs;
+  return { data, indexVersion };
 }
 
 function normalise(raw) {
   const ev = raw.evaluations ?? {};
   const pr = raw.pricing ?? {};
+  const perf = raw.performance ?? {};
+  const input = round(pr.price_1m_input_tokens, 3);
+  const output = round(pr.price_1m_output_tokens, 3);
+  // AA's 3:1 input:output blend (Pro-only field), computed from the unrounded prices so ties round the same way AA's did.
+  const blended = input != null && output != null ? round((3 * pr.price_1m_input_tokens + pr.price_1m_output_tokens) / 4, 3) : null;
   return {
     id: raw.id,
     name: raw.name,
     slug: raw.slug,
     creator: raw.model_creator?.name ?? "Unknown",
-    creator_slug: raw.model_creator?.slug ?? null,
     index: round(ev.artificial_analysis_intelligence_index, 1),
-    coding: round(ev.artificial_analysis_coding_index, 1),
-    math: round(ev.artificial_analysis_math_index, 1),
-    blended: round(pr.price_1m_blended_3_to_1, 3),
-    input: round(pr.price_1m_input_tokens, 3),
-    output: round(pr.price_1m_output_tokens, 3),
-    task: null, // filled in from COST_ENDPOINT
-    tps: positive(round(raw.median_output_tokens_per_second, 0)),
-    ttft: positive(round(raw.median_time_to_first_token_seconds, 2)),
+    blended,
+    input,
+    output,
+    task: round(positive(raw.artificial_analysis_intelligence_index_cost?.cost_per_task?.total_cost), 4),
+    tps: positive(round(perf.median_output_tokens_per_second, 0)),
+    ttft: positive(round(perf.median_time_to_first_token_seconds, 2)),
     url: raw.slug ? `https://artificialanalysis.ai/models/${raw.slug}` : null,
   };
 }
@@ -106,15 +115,9 @@ const stableKey = (models) => JSON.stringify(models.map((m) => {
 }));
 
 async function main() {
-  const res = await fetch(ENDPOINT, { headers });
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`AA API ${res.status} ${res.statusText}: ${body.slice(0, 300)}`);
-  }
-  const json = await res.json();
-  if (!Array.isArray(json.data)) throw new Error("Unexpected response shape: no data[]");
+  const { data, indexVersion } = await fetchAllModels();
 
-  const models = json.data
+  const models = data
     .map(normalise)
     .filter((m) => m.index != null && m.blended != null && m.blended > 0)
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -124,15 +127,6 @@ async function main() {
   const prev = await readJson(MODELS_PATH, null);
   const prevModels = prev?.models ?? [];
   const isSeed = prev?.source === "seed";
-
-  // Cost per task is an extra; if that endpoint fails, keep the last known values rather than losing the run.
-  let costs;
-  try { costs = await fetchTaskCosts(); }
-  catch (err) {
-    console.warn(`Cost per task not refreshed (${err.message ?? err}); carrying over previous values.`);
-    costs = new Map(prevModels.filter((m) => m.task != null).map((m) => [m.id, m.task]));
-  }
-  models.forEach((m) => { m.task = costs.get(m.id) ?? null; });
 
   if (prev && !isSeed && stableKey(prevModels) === stableKey(models)) {
     console.log(`No change: ${models.length} models identical to snapshot from ${prev.fetched_at}.`);
@@ -144,8 +138,7 @@ async function main() {
     fetched_at: new Date().toISOString(),
     source: "artificialanalysis.ai",
     endpoint: ENDPOINT,
-    cost_endpoint: COST_ENDPOINT,
-    prompt_options: json.prompt_options ?? null,
+    intelligence_index_version: indexVersion,
     attribution: "Data from Artificial Analysis (https://artificialanalysis.ai/). Attribution required.",
     count: models.length,
     models,

@@ -2,7 +2,7 @@
 
 Live: https://bestvaluemodel.terrydjony.workers.dev/
 
-A single static page that plots every model on the [Artificial Analysis](https://artificialanalysis.ai/) Intelligence Index against its blended API price and highlights the **value frontier** (models where nothing cheaper is also smarter). A GitHub Actions cron refreshes the data daily and redeploys to Cloudflare only when something actually changed.
+A single static page that plots every model on the [Artificial Analysis](https://artificialanalysis.ai/) Intelligence Index against its blended API price and highlights the **value frontier** (models where nothing cheaper is also smarter). A GitHub Actions cron refreshes the data every 6 hours and redeploys to Cloudflare only when something actually changed.
 
 Inspired by [vps.sonnylab.com/model-value-2026-07](https://vps.sonnylab.com/model-value-2026-07.html), but data-driven instead of hand-maintained.
 
@@ -19,7 +19,7 @@ Inspired by [vps.sonnylab.com/model-value-2026-07](https://vps.sonnylab.com/mode
 
 ## Setup
 
-1. Get a free API key: sign up at https://artificialanalysis.ai/, open the Insights Platform, create an API key (1,000 requests/day, attribution required).
+1. Get a free API key: sign up at https://artificialanalysis.ai/, open the Insights Platform, create an API key (free tier: 100 requests per 24h, attribution required).
 2. Create the GitHub repo and push:
    ```sh
    git init -b main && git add -A && git commit -m "Initial site"
@@ -55,5 +55,7 @@ The page fetches JSON, so open it over HTTP rather than as a `file://` URL.
 
 - The frontier is computed client-side on the Intelligence Index, for whichever cost basis is selected, over the full model set, so filtering by maker shows where that maker's models sit against everyone.
 - Blended price is AA's 3:1 input:output blend. Cached-input, batch and fast-mode pricing are ignored.
-- Cost per task is AA's weighted average cost to complete one Intelligence Index task, fetched from `/api/v2/language/models/free` and merged in by model id. It accounts for how many tokens a model actually uses, but AA has measured it for fewer models, so the "Cost per task" view shows a smaller field.
+- Everything comes from the free Data API endpoint `/api/v2/language/models/free` (paginated, 200 per page; docs at https://artificialanalysis.ai/data-api/docs). The legacy `/api/v2/data/*` endpoints were retired on 2026-11-04.
+- Blended price is AA's 3:1 input:output blend. The free tier does not expose it directly, so the script computes `(3 × input + output) / 4` from the per-token prices; this matched AA's published figure to 3 dp across the whole legacy snapshot.
+- Cost per task is AA's weighted average cost to complete one Intelligence Index task. It accounts for how many tokens a model actually uses, but AA has measured it for fewer models, so the "Cost per task" view shows a smaller field.
 - Data attribution: Artificial Analysis, https://artificialanalysis.ai/. Required by their API terms.

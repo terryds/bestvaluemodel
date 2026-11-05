@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-11-05",
+    "added": [
+      {
+        "name": "Claude Opus 5 (Max)",
+        "creator": "Anthropic",
+        "index": 44.2,
+        "blended": 10
+      },
+      {
+        "name": "Muse Wonder (High)",
+        "creator": "Meta",
+        "index": 40.5,
+        "blended": 8
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 7.6827,
+            "to": 9.9466
+          }
+        ]
+      },
+      {
+        "name": "GLM-5.3-Flash",
+        "creator": "Z AI",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.237,
+            "to": 0.238
+          }
+        ]
+      },
+      {
+        "name": "Granite 4.2 8B",
+        "creator": "IBM",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.107,
+            "to": 0.108
+          }
+        ]
+      },
+      {
+        "name": "Inkling (Xhigh)",
+        "creator": "Thinking Machines",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.762,
+            "to": 1.763
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "added": [
       {

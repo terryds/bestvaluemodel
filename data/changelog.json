@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-11-06",
+    "added": [
+      {
+        "name": "Inkling 2 Small",
+        "creator": "Thinking Machines",
+        "index": 30.6,
+        "blended": 0.475
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Mistral Large 4 (High)",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.0615,
+            "to": 2.0617
+          }
+        ]
+      },
+      {
+        "name": "Mistral Large 4 (Medium)",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 1.4119,
+            "to": 1.4121
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "added": [
       {

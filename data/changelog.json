@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-11-07",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Nemotron 3.5 Super VL",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.275,
+            "to": 0.256
+          },
+          {
+            "field": "input",
+            "from": 0.2,
+            "to": 0.175
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5382,
+            "to": 0.5196
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "added": [
       {

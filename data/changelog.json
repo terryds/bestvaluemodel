@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-11-09",
+    "added": [
+      {
+        "name": "Agnes 2.5 Pro Theta",
+        "creator": "Sapiens AI",
+        "index": 24,
+        "blended": 0.15
+      },
+      {
+        "name": "Claude Fable 5.2 (High, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 61.8,
+        "blended": 16
+      },
+      {
+        "name": "Claude Fable 5.2 (Low, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 53.9,
+        "blended": 16
+      },
+      {
+        "name": "Claude Fable 5.2 (Max, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 64.6,
+        "blended": 16
+      },
+      {
+        "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 56.4,
+        "blended": 16
+      },
+      {
+        "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+        "creator": "Anthropic",
+        "index": 62.2,
+        "blended": 16
+      },
+      {
+        "name": "gpt-oss-120b (High)",
+        "creator": "OpenAI",
+        "index": 3.8,
+        "blended": 0.262
+      },
+      {
+        "name": "Muse Ember (Max)",
+        "creator": "Meta",
+        "index": 36,
+        "blended": 0.2
+      },
+      {
+        "name": "Muse Ember (Xhigh)",
+        "creator": "Meta",
+        "index": 34.1,
+        "blended": 0.2
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Muse Glimmer (High)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.161,
+            "to": 0.1695
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Lightning",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2898,
+            "to": 0.3145
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "added": [],
     "removed": [],

@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-10",
+    "added": [
+      {
+        "name": "Apodex 1.1",
+        "creator": "Apodex",
+        "index": 13.7,
+        "blended": 0.975
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-11-09",
     "added": [
       {

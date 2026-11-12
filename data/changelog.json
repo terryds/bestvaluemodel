@@ -3,6 +3,142 @@
     "date": "2026-11-12",
     "added": [
       {
+        "name": "Gemini 4 Hydrogen (High)",
+        "creator": "Google",
+        "index": 50.8,
+        "blended": 3
+      },
+      {
+        "name": "Gemini 4 Hydrogen (Low)",
+        "creator": "Google",
+        "index": 26.9,
+        "blended": 3
+      },
+      {
+        "name": "Gemini 4 Hydrogen (Medium)",
+        "creator": "Google",
+        "index": 41.2,
+        "blended": 3
+      },
+      {
+        "name": "Gemini 4 Hydrogen (Xhigh)",
+        "creator": "Google",
+        "index": 53.9,
+        "blended": 3
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 8,
+            "to": 4
+          },
+          {
+            "field": "input",
+            "from": 4,
+            "to": 2
+          },
+          {
+            "field": "output",
+            "from": 20,
+            "to": 10
+          },
+          {
+            "field": "cost/task",
+            "from": 9.9466,
+            "to": 4.9733
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 8,
+            "to": 4
+          },
+          {
+            "field": "input",
+            "from": 4,
+            "to": 2
+          },
+          {
+            "field": "output",
+            "from": 20,
+            "to": 10
+          },
+          {
+            "field": "cost/task",
+            "from": 7.7555,
+            "to": 5.4848
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (Low)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 8,
+            "to": 4
+          },
+          {
+            "field": "input",
+            "from": 4,
+            "to": 2
+          },
+          {
+            "field": "output",
+            "from": 20,
+            "to": 10
+          },
+          {
+            "field": "cost/task",
+            "from": 7.1866,
+            "to": 5.2214
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 8,
+            "to": 4
+          },
+          {
+            "field": "input",
+            "from": 4,
+            "to": 2
+          },
+          {
+            "field": "output",
+            "from": 20,
+            "to": 10
+          },
+          {
+            "field": "cost/task",
+            "from": 6.5858,
+            "to": 4.6777
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "added": [
+      {
         "name": "Qwen3.8-Flash-Next",
         "creator": "Alibaba",
         "index": 28.6,

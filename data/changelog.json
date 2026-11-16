@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-16",
+    "added": [
+      {
+        "name": "Qwen4 Max",
+        "creator": "Alibaba",
+        "index": 42.9,
+        "blended": 2.25
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-11-14",
     "added": [
       {

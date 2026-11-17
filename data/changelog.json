@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-17",
+    "added": [
+      {
+        "name": "Gemma 4 E4B (Reasoning)",
+        "creator": "Google",
+        "index": 4.8,
+        "blended": 0.04
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-11-16",
     "added": [
       {

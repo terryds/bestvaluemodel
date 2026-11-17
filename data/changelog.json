@@ -3,6 +3,73 @@
     "date": "2026-11-17",
     "added": [
       {
+        "name": "GPT-6.2 Astra (High)",
+        "creator": "OpenAI",
+        "index": 60.1,
+        "blended": 16
+      },
+      {
+        "name": "GPT-6.2 Astra (Low)",
+        "creator": "OpenAI",
+        "index": 45.7,
+        "blended": 16
+      },
+      {
+        "name": "GPT-6.2 Astra (Max)",
+        "creator": "OpenAI",
+        "index": 62.1,
+        "blended": 16
+      },
+      {
+        "name": "GPT-6.2 Astra (Medium)",
+        "creator": "OpenAI",
+        "index": 57,
+        "blended": 16
+      },
+      {
+        "name": "GPT-6.2 Astra (Xhigh)",
+        "creator": "OpenAI",
+        "index": 61.6,
+        "blended": 16
+      },
+      {
+        "name": "GPT-6.2 Sol (High)",
+        "creator": "OpenAI",
+        "index": 54.9,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.2 Sol (Low)",
+        "creator": "OpenAI",
+        "index": 40.6,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.2 Sol (Max)",
+        "creator": "OpenAI",
+        "index": 57.3,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.2 Sol (Medium)",
+        "creator": "OpenAI",
+        "index": 52.7,
+        "blended": 4
+      },
+      {
+        "name": "GPT-6.2 Sol (Xhigh)",
+        "creator": "OpenAI",
+        "index": 55.7,
+        "blended": 4
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "date": "2026-11-17",
+    "added": [
+      {
         "name": "Gemma 4 E4B (Reasoning)",
         "creator": "Google",
         "index": 4.8,

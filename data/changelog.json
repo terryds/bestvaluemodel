@@ -1,6 +1,91 @@
 [
   {
     "date": "2026-11-18",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Gemini 4 Carbon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 4,
+            "to": 8
+          },
+          {
+            "field": "input",
+            "from": 2,
+            "to": 4
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 20
+          },
+          {
+            "field": "cost/task",
+            "from": 5.4848,
+            "to": 7.7555
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (Low)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 4,
+            "to": 8
+          },
+          {
+            "field": "input",
+            "from": 2,
+            "to": 4
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 20
+          },
+          {
+            "field": "cost/task",
+            "from": 5.2214,
+            "to": 7.1866
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 4,
+            "to": 8
+          },
+          {
+            "field": "input",
+            "from": 2,
+            "to": 4
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 20
+          },
+          {
+            "field": "cost/task",
+            "from": 4.6777,
+            "to": 6.5858
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-18",
     "added": [
       {
         "name": "Inkling (High)",

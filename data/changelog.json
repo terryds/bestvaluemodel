@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-18",
+    "added": [
+      {
+        "name": "Inkling (High)",
+        "creator": "Thinking Machines",
+        "index": 11,
+        "blended": 1.763
+      },
+      {
+        "name": "Inkling Small (High)",
+        "creator": "Thinking Machines",
+        "index": 9.6,
+        "blended": 0.525
+      },
+      {
+        "name": "LFM3-1.7B",
+        "creator": "Liquid AI",
+        "index": 6,
+        "blended": 0.11
+      },
+      {
+        "name": "LFM3-VL-2B",
+        "creator": "Liquid AI",
+        "index": 1.7,
+        "blended": 0.2
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Nemotron 3.5 Super VL",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.275,
+            "to": 0.238
+          },
+          {
+            "field": "input",
+            "from": 0.2,
+            "to": 0.15
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5575,
+            "to": 0.4818
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "added": [
       {

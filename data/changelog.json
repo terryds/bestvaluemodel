@@ -1,6 +1,46 @@
 [
   {
     "date": "2026-11-19",
+    "added": [],
+    "removed": [
+      {
+        "name": "Gemma 4 E4B (Reasoning)",
+        "creator": "Google",
+        "index": 4.8,
+        "blended": 0.04
+      }
+    ],
+    "changed": [
+      {
+        "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 1.05,
+            "to": 0.988
+          },
+          {
+            "field": "input",
+            "from": 0.6,
+            "to": 0.55
+          },
+          {
+            "field": "output",
+            "from": 2.4,
+            "to": 2.3
+          },
+          {
+            "field": "cost/task",
+            "from": 2.2103,
+            "to": 2.1897
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
     "added": [
       {
         "name": "Gemini 4 Neon (High)",

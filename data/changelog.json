@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-11-19",
+    "added": [
+      {
+        "name": "Gemini 4 Neon (High)",
+        "creator": "Google",
+        "index": 59.6,
+        "blended": 6
+      },
+      {
+        "name": "Gemini 4 Neon (Low)",
+        "creator": "Google",
+        "index": 44.1,
+        "blended": 6
+      },
+      {
+        "name": "Gemini 4 Neon (Medium)",
+        "creator": "Google",
+        "index": 54.9,
+        "blended": 6
+      },
+      {
+        "name": "Gemini 4 Neon (Xhigh)",
+        "creator": "Google",
+        "index": 61.4,
+        "blended": 6
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-11-18",
     "added": [],
     "removed": [],

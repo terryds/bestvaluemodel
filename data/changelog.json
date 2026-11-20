@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-20",
+    "added": [
+      {
+        "name": "Inkling 2 Mini",
+        "creator": "Thinking Machines",
+        "index": 20.1,
+        "blended": 0.238
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
     "date": "2026-11-19",
     "added": [],
     "removed": [

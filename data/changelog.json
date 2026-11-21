@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-11-21",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 4,
+            "to": 8
+          },
+          {
+            "field": "input",
+            "from": 2,
+            "to": 4
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 20
+          },
+          {
+            "field": "cost/task",
+            "from": 4.9733,
+            "to": 9.9466
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Argon (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 4,
+            "to": 8
+          },
+          {
+            "field": "input",
+            "from": 2,
+            "to": 4
+          },
+          {
+            "field": "output",
+            "from": 10,
+            "to": 20
+          },
+          {
+            "field": "cost/task",
+            "from": 4.3146,
+            "to": 8.6292
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "added": [
       {

@@ -1,5 +1,678 @@
 [
   {
+    "date": "2026-11-24",
+    "added": [],
+    "removed": [
+      {
+        "name": "Granite 4.2 8B",
+        "creator": "IBM",
+        "index": 5.1,
+        "blended": 0.108
+      }
+    ],
+    "changed": [
+      {
+        "name": "Agnes 2.5 Pro Theta",
+        "creator": "Sapiens AI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 24,
+            "to": 24.1
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.1 (Max, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 49.2,
+            "to": 49.3
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.2 (High, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 61.8,
+            "to": 61.9
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.2 (Max, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 64.6,
+            "to": 64.8
+          }
+        ]
+      },
+      {
+        "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 56.4,
+            "to": 56.3
+          }
+        ]
+      },
+      {
+        "name": "Claude Haiku 5.5 (High)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 29.9,
+            "to": 30
+          }
+        ]
+      },
+      {
+        "name": "Claude Opus 5.5 (Medium, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 48.2,
+            "to": 48.3
+          }
+        ]
+      },
+      {
+        "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 57.4,
+            "to": 57.5
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 54.5,
+            "to": 54.7
+          }
+        ]
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Medium, Default Fallback)",
+        "creator": "Anthropic",
+        "fields": [
+          {
+            "field": "index",
+            "from": 30.8,
+            "to": 30.9
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (High)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "index",
+            "from": 28.6,
+            "to": 28.7
+          }
+        ]
+      },
+      {
+        "name": "DeepSeek V4.1 Flash 1017 (Max)",
+        "creator": "DeepSeek",
+        "fields": [
+          {
+            "field": "index",
+            "from": 32.6,
+            "to": 32.4
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.8 Flash (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 30.8,
+            "to": 30.7
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 50.4,
+            "to": 50.5
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Argon (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 47.6,
+            "to": 47.7
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 60,
+            "to": 60.1
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Carbon (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 58.3,
+            "to": 58.4
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 50.8,
+            "to": 51
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 41.2,
+            "to": 41.1
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen (Xhigh)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 53.9,
+            "to": 54.1
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Neon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 59.6,
+            "to": 59.8
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Neon (Xhigh)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "index",
+            "from": 61.4,
+            "to": 61.5
+          }
+        ]
+      },
+      {
+        "name": "GLM-5.3 (Max)",
+        "creator": "Z AI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 31.7,
+            "to": 31.6
+          }
+        ]
+      },
+      {
+        "name": "GLM-5.3-Flash (Max)",
+        "creator": "Z AI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 27.8,
+            "to": 27.7
+          }
+        ]
+      },
+      {
+        "name": "GPT-5.6 Terra (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 32.3,
+            "to": 32.2
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Astra (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 54.8,
+            "to": 54.9
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Astra (Low)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 43.3,
+            "to": 43.5
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Astra (Medium)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 51.6,
+            "to": 51.7
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Astra (Xhigh)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 55.3,
+            "to": 55.4
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Luna (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 21.4,
+            "to": 21.5
+          }
+        ]
+      },
+      {
+        "name": "GPT-6 Sol (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 44.2,
+            "to": 44.1
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.1 Sol (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 54.6,
+            "to": 54.7
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.1 Sol (Xhigh)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 52.5,
+            "to": 52.4
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.1 Terra (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 42.4,
+            "to": 42.5
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.1 Terra (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 51.3,
+            "to": 51.4
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.1 Terra (Medium)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 38.2,
+            "to": 38.1
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.2 Astra (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 60.1,
+            "to": 60.3
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.2 Astra (Max)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 62.1,
+            "to": 62.2
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.2 Astra (Xhigh)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 61.6,
+            "to": 61.8
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.2 Sol (High)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 54.9,
+            "to": 54.8
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.2 Sol (Medium)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 52.7,
+            "to": 52.4
+          }
+        ]
+      },
+      {
+        "name": "GPT-6.2 Sol (Xhigh)",
+        "creator": "OpenAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 55.7,
+            "to": 55.6
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.6 (Xhigh)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 4.6786,
+            "to": 4.68
+          }
+        ]
+      },
+      {
+        "name": "Grok 4.7 (Xhigh)",
+        "creator": "SpaceXAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 35.5,
+            "to": 35.4
+          }
+        ]
+      },
+      {
+        "name": "Inkling 2 Small",
+        "creator": "Thinking Machines",
+        "fields": [
+          {
+            "field": "index",
+            "from": 30.6,
+            "to": 30.7
+          }
+        ]
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "creator": "Kimi",
+        "fields": [
+          {
+            "field": "index",
+            "from": 46.5,
+            "to": 46.6
+          }
+        ]
+      },
+      {
+        "name": "Ling 3.1 Flash 1019",
+        "creator": "InclusionAI",
+        "fields": [
+          {
+            "field": "index",
+            "from": 29.6,
+            "to": 29.7
+          }
+        ]
+      },
+      {
+        "name": "MiMo-V2.6-Flash",
+        "creator": "Xiaomi",
+        "fields": [
+          {
+            "field": "index",
+            "from": 26.7,
+            "to": 26.8
+          }
+        ]
+      },
+      {
+        "name": "MiniMax-M3",
+        "creator": "MiniMax",
+        "fields": [
+          {
+            "field": "index",
+            "from": 18.9,
+            "to": 19
+          },
+          {
+            "field": "cost/task",
+            "from": 1.2851,
+            "to": 1.291
+          }
+        ]
+      },
+      {
+        "name": "MiniMax-M3.1-Flash",
+        "creator": "MiniMax",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.491,
+            "to": 0.492
+          }
+        ]
+      },
+      {
+        "name": "Mistral Large 4 Preview",
+        "creator": "Mistral",
+        "fields": [
+          {
+            "field": "index",
+            "from": 25.3,
+            "to": 25.2
+          }
+        ]
+      },
+      {
+        "name": "Muse Ember (Max)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "index",
+            "from": 36,
+            "to": 36.1
+          }
+        ]
+      },
+      {
+        "name": "Muse Ember (Xhigh)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "index",
+            "from": 34.1,
+            "to": 34.2
+          }
+        ]
+      },
+      {
+        "name": "Muse Wonder (Max)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "index",
+            "from": 43.6,
+            "to": 43.7
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 27B (Medium)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.16,
+            "to": 2.2709
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 27B (Xhigh)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 3.5295,
+            "to": 3.5323
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 Max (0902)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 10.0239,
+            "to": 10.0285
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8-Flash-Next",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "index",
+            "from": 28.6,
+            "to": 28.5
+          },
+          {
+            "field": "cost/task",
+            "from": 0.5694,
+            "to": 0.5716
+          }
+        ]
+      },
+      {
+        "name": "Qwen4 Max",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "index",
+            "from": 42.9,
+            "to": 42.8
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "added": [],
     "removed": [],

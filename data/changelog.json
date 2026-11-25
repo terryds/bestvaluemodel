@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-11-25",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Muse Glimmer (High)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "blended",
+            "from": 0.581,
+            "to": 0.525
+          },
+          {
+            "field": "input",
+            "from": 0.325,
+            "to": 0.3
+          },
+          {
+            "field": "output",
+            "from": 1.35,
+            "to": 1.2
+          },
+          {
+            "field": "cost/task",
+            "from": 0.1782,
+            "to": 0.2061
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Lightning",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.3145,
+            "to": 0.2898
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "added": [],
     "removed": [

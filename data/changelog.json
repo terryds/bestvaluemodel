@@ -1,5 +1,195 @@
 [
   {
+    "date": "2026-11-26",
+    "added": [
+      {
+        "name": "Gemma 4 26B A4B (Reasoning)",
+        "creator": "Google",
+        "index": 4,
+        "blended": 0.151
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "name": "Agnes 2.5 Pro Theta",
+        "creator": "Sapiens AI",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.5747,
+            "to": 0.4515
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.1 Flash-Lite",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.1945,
+            "to": 0.2065
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.8 Flash (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 7.766,
+            "to": 3.0217
+          }
+        ]
+      },
+      {
+        "name": "Gemini 3.8 Flash (Medium)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 6.2586,
+            "to": 2.6064
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Argon (High)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 9.9466,
+            "to": 7.0616
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Hydrogen (Low)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2922,
+            "to": 0.3674
+          }
+        ]
+      },
+      {
+        "name": "Gemini 4 Neon (Low)",
+        "creator": "Google",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.7452,
+            "to": 0.8819
+          }
+        ]
+      },
+      {
+        "name": "Muse Glimmer (High)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2061,
+            "to": 0.1494
+          }
+        ]
+      },
+      {
+        "name": "Muse Spark Open (Xhigh)",
+        "creator": "Meta",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.0177,
+            "to": 1.7657
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.1897,
+            "to": 2.5044
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Lightning",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.2898,
+            "to": 0.2377
+          }
+        ]
+      },
+      {
+        "name": "Nemotron 3.5 Super VL",
+        "creator": "NVIDIA",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.4818,
+            "to": 0.5453
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 27B (Medium)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.2709,
+            "to": 2.5081
+          }
+        ]
+      },
+      {
+        "name": "Qwen3.8 27B (Non-reasoning)",
+        "creator": "Alibaba",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 3.7729,
+            "to": 4.6287
+          }
+        ]
+      },
+      {
+        "name": "Solar Pro 4",
+        "creator": "Upstage",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 0.9557,
+            "to": 1.3347
+          }
+        ]
+      },
+      {
+        "name": "Step 5 Preview",
+        "creator": "StepFun",
+        "fields": [
+          {
+            "field": "cost/task",
+            "from": 2.3453,
+            "to": 3.9376
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "added": [],
     "removed": [],

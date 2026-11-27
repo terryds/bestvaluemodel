@@ -3,6 +3,19 @@
     "date": "2026-11-27",
     "added": [
       {
+        "name": "Quasar 1.2 358B (Max, Based on GLM-5.3)",
+        "creator": "Multiverse Computing",
+        "index": 23.1,
+        "blended": 0.165
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "date": "2026-11-27",
+    "added": [
+      {
         "name": "ERNIE 5.5 Flash Preview",
         "creator": "Baidu",
         "index": 31.3,
